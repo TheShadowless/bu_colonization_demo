@@ -1,7 +1,18 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Town : MonoBehaviour
+public class Town : MonoBehaviour, IPointerClickHandler
 {
+    [SerializeField] private string townName;
+    public string TownName => townName;
+    [SerializeField] private int[] warehouse = new int[16];
+    public int[] Warehouse { get => warehouse; set => warehouse = value; }
+    [SerializeField] private int[] totalYieldThisTurn = new int[16];
+    public int[] TotalYieldThisTurn { get => totalYieldThisTurn; set => totalYieldThisTurn = value; }
+    [SerializeField] private int crossNum;
+    public int CrossNum => crossNum;
+    [SerializeField] private int bellNum;
+    public int BellNum => bellNum;
     [SerializeField]
     protected Faction faction;
     public Faction Faction { get { return faction; } }
@@ -52,5 +63,32 @@ public class Town : MonoBehaviour
         faction = fact;
         flagSprite.sprite = fact.FlagIcon;
         townSprite.sprite = fact.TownIcon;
+        townName = fact.Nation + (fact.IsEuropean ? " Colony " : " Village ") + (fact.Towns.Count + 1);
+    }
+
+    public void RecalculateProduction()
+    {
+        if (totalYieldThisTurn == null || totalYieldThisTurn.Length != YieldRules.ProductCount)
+            totalYieldThisTurn = new int[YieldRules.ProductCount];
+        System.Array.Clear(totalYieldThisTurn, 0, totalYieldThisTurn.Length);
+        if (curHex == null || gameManager == null) return;
+        curHex.YieldID = 0;
+        totalYieldThisTurn[0] = YieldRules.NormalYield(curHex, 0);
+        foreach (var hex in HexCalculator.GetHexAround(gameManager.AllHexes, curHex))
+        {
+            var worker = hex.Labor;
+            if (worker == null || worker.CurHex != curHex || worker.Faction != faction ||
+                worker.UnitStatus != UnitStatus.WorkInField || hex.YieldID < 0 ||
+                hex.YieldID >= YieldRules.RawProductCount) continue;
+            totalYieldThisTurn[hex.YieldID] += YieldRules.NormalYield(hex, hex.YieldID);
+        }
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.button == PointerEventData.InputButton.Left &&
+            gameManager != null && gameManager.PlayerTurn && faction == gameManager.PlayerFaction &&
+            UIManager.instance != null && !UIManager.instance.IsTownOpen)
+            gameManager.SetupCurrentTown(this);
     }
 }

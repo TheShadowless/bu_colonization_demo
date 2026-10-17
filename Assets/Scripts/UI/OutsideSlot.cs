@@ -20,11 +20,14 @@ public class OutsideSlot : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
+        if (UIManager.instance == null || UIManager.instance.IsProfessionOpen) return;
         GameObject unitObj = eventData.pointerDrag;
-        UnitDrag unitDrag = unitObj.GetComponent<UnitDrag>();
+        UnitDrag unitDrag = unitObj != null ? unitObj.GetComponent<UnitDrag>() : null;
+        if (unitDrag == null || unitDrag.LandUnit == null) return;
         unitDrag.IconParent = transform;
 
         unitDrag.QuitOldTerrainSlot(); //old slot remove this labor
         unitDrag.LandUnit.UnitStatus = UnitStatus.None;
+        UIManager.instance.RefreshProduction();
     }
 }

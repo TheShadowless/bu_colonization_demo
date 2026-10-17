@@ -229,6 +229,8 @@ public class Hex : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (UIManager.instance != null && UIManager.instance.IsTownOpen) return;
+        if (gameMgr.CurUnit == null || !gameMgr.PlayerTurn) return;
         if (eventData.button == PointerEventData.InputButton.Right)
         {
             //Debug.Log($"Right Click-Hex:{x}, {y}");
@@ -244,5 +246,17 @@ public class Hex : MonoBehaviour, IPointerClickHandler
     {
         hasForest = false;
         forestSprite.gameObject.SetActive(false);
+    }
+
+    public int GetResourcePotential(int id)
+    {
+        if (id < 0 || id >= YieldRules.RawProductCount) return 0;
+        if (hasForest && (id == 4 || id == 5) && gameMgr != null)
+        {
+            var data = gameMgr.HexData[(int)hexType];
+            if (data.forestProducts != null && data.forestProducts.Length == 2)
+                return data.forestProducts[id - 4];
+        }
+        return resourceYield != null && id < resourceYield.Length ? resourceYield[id] : 0;
     }
 }

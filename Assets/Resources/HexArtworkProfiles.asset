@@ -49,3 +49,4 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: 866ed01ee2de8bd4ab0f5360af1f37f2, type: 2}
   - sprite: {fileID: 21300000, guid: 35666ddf18d2a7445afb2e2391ca0051, type: 3}
     material: {fileID: 2100000, guid: 032b934d050002f4082c1d04118315a7, type: 2}
+  uiShader: {fileID: 4800000, guid: e40ac42341e54874285f3a1f35ba38eb, type: 3}

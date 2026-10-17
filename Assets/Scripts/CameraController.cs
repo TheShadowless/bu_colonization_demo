@@ -37,6 +37,7 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (UIManager.instance != null && UIManager.instance.IsTownOpen) return;
         MoveByKB();
         ZoomInOut();
     }

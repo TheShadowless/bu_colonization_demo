@@ -1,183 +1,159 @@
 [
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_ocean.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_apache.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "b9e7d4e2b66f4a815ab141aeec99209d73e04acc2e8e69f93163352624aa88db"
+    "sha256": "6884f071cab00a9f8f767c35711bd510209dcb5195657e0aae63e9eca36b331f"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_grassland.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_aztec.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "2cc9c66c79cfa1bba7df9afdf5a9b2b8fad5cfd1a54cc6f7ac75b040fc135fb0"
+    "sha256": "917f138eb63371e804f124d6fb9ac7bae6d4704b76b806d347bcf1f6eea0dd82"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_prairie.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_england.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "1a886d3b4c95435ceb576dbecb0eba149f34a4177db99b58b94895e5e91374a3"
+    "sha256": "d5c6ed6b457fab64bb7db56325f5415fc24c3ab102322e41cbd0d295dcceaad1"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_savanna.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_france.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "3cc60766a40bbec0bc0c40e57d79cd428ef1873cdbde53131bf40d2b718f6dda"
+    "sha256": "d3045a0ae48a3e16f4beee2170661a0e98de9e38e785aa790fa002a3051450ab"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_plain.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_huron.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "3b3b0b21904dbfb435d993342e9a9b55a7e28d345dd70d2695b205b3ce21f8e7"
+    "sha256": "23367db899ba4e2d4057492b1efd9baeec8b2eb24b62431c2c6b6f3f0e6a538f"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_tundra.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_inca.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "8d09bc79968c2f0867ddc5b1ef551c7fef1ee380490d4800b66aec58fff64167"
+    "sha256": "d192a623d00a99cce6ec55ec410a49915f01b63a0483d81060921c9daf111d32"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_desert.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_iroquois.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "32942906055ba6cc51b9e701f298738a4a44cb3986a30c9bd1736b65fab24bc7"
+    "sha256": "1792edb9c17f1a6e6e48339740fc8d6a76681db76cdb734655e4bb260586faba"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_swamp.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_maya.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "b68eb39034fdeb35a7df4624f922806aeeec9d3b852b585262ed5d7cd3acd84e"
+    "sha256": "daa6ea06ddc591aa1584b999c7cf32914356241b4c6daf7d3fa69383843a3743"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_arctic.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_netherland.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "c69cdb3755474d8116c83fcce831f64947ff96ca4fe0d7490ce2270207952441"
+    "sha256": "44def33f60fd99df948928e633b16498e0de35681032981791581426a04e2fea"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_hills.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_portugal.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "1a5e630ca77b15ec069c161264c5fbefdf4b3ab07ae4ad8eb277cfb1511229d9"
+    "sha256": "d3102b9884ebad87f7862b4669e67a51d66489a324bb775a1dab0655e48da096"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Terrain/terrain_mountains.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_sioux.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "a0bd7a9002d61a80e7d4863eaeeb86d14d0c80b0dabb850eefd0aee6de99d00d"
+    "sha256": "1ec173926d4bdc290d5a008b1cc203a2835fee6b1def61a506b323136a00877d"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Forests/forest_conifer.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_spain.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "f194b7d512547caab14ff7a39362977aaf69531ababb202e7ef46f2d6e05b44e"
+    "sha256": "39d4752ca4a1d87bfe3058c418686c5b70bbdac9a6806dd32f7af58f50023b72"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Forests/forest_broadleaf.png",
+    "file": "Assets/Textures/StudentDraft/Flags/flag_tupi.png",
     "dimensions": [
       256,
-      384
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "fc7fa0092cb48e35263662802df2a0d79898e1a7a5b89a10c9374a7f0b5be499"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Forests/forest_savanna.png",
-    "dimensions": [
-      256,
-      384
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "563e88b0362c9526b140dcfd9b2ad75379079795fba65a2888e2f40e21b88288"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Forests/forest_mixed.png",
-    "dimensions": [
-      256,
-      384
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "3cbd6dbff9b7310cf5946c46e383897dc871a112474fdbb7bee5aa40ef701dd7"
+    "sha256": "c31b0db74f12c4a869bb25fdbcb2191b55e92c0ec832a1f0a89d0883f101b80c"
   },
   {
     "file": "Assets/Textures/StudentDraft/Forests/forest_boreal.png",
@@ -192,7 +168,7 @@
     "sha256": "bf0cfe98adf058eaf3fea3d7e68a6299637fce83416fc20ccfadec37f74bb2b1"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Forests/forest_scrub.png",
+    "file": "Assets/Textures/StudentDraft/Forests/forest_broadleaf.png",
     "dimensions": [
       256,
       384
@@ -201,7 +177,31 @@
       0,
       255
     ],
-    "sha256": "ef625940abe4dca36ef8d37bf73e9f72521a3c59afe19fd04e1ee47b5ebf447b"
+    "sha256": "fc7fa0092cb48e35263662802df2a0d79898e1a7a5b89a10c9374a7f0b5be499"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Forests/forest_conifer.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "f194b7d512547caab14ff7a39362977aaf69531ababb202e7ef46f2d6e05b44e"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Forests/forest_mixed.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3cbd6dbff9b7310cf5946c46e383897dc871a112474fdbb7bee5aa40ef701dd7"
   },
   {
     "file": "Assets/Textures/StudentDraft/Forests/forest_rainforest.png",
@@ -216,136 +216,28 @@
     "sha256": "5700294ddadfd3980590521aa7c5f138d4b5f22e253ad2cefb5a6fb62195f090"
   },
   {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_free_colonist.png",
+    "file": "Assets/Textures/StudentDraft/Forests/forest_savanna.png",
     "dimensions": [
       256,
-      256
+      384
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "3facb622cef6272595d4f25b9a7cead8c020e6b5d7d79c5d8ef3ebe083c1acbf"
+    "sha256": "563e88b0362c9526b140dcfd9b2ad75379079795fba65a2888e2f40e21b88288"
   },
   {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_soldier.png",
+    "file": "Assets/Textures/StudentDraft/Forests/forest_scrub.png",
     "dimensions": [
       256,
-      256
+      384
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "89035db703490d6315181159b71f38f6ae95130ccac65ac5bb778f8e8d48013a"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_hardy_pioneer.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "2b8733b296ccf46762f3b719e5fcd2308f9325faf16149e83455b54503ffcce7"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_plain_native.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "33379f839ae562db3d7fa4c5889a67c925e93db3c187bcf3840be4a5c92d4a5f"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_tropical_native.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "f4ee3a83884a24357c53536592ba85a9eb0335906f4af2746a6a21335e08522c"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_scout.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "9065dd66a6b2c2f73a225c3eb41146a282096495b76134227f56e9f73c87dcd9"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_farmer.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "7d397b8bd50f4be52b07223b4cd1eebad73208261ec42c0e28e8b6d0680eb152"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_fisherman.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "ab764b217a8f272b38bb1b4d045294b08191972dd1d0489633930974617d85e8"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_lumberjack.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "8cc579125237be19728aa20f9ef75edd942b513df26f99c3800107b3716d3209"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_carpenter.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "14ac9a205363e49da55c6177bde4ced3e758c8e395de89dba824697a3d0b874f"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_ore_miner.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "ac7e4e9e7206f11dbd97d548fd060a04c9184b1f398c0541ebda4c690fd075cd"
+    "sha256": "ef625940abe4dca36ef8d37bf73e9f72521a3c59afe19fd04e1ee47b5ebf447b"
   },
   {
     "file": "Assets/Textures/StudentDraft/LandUnits/unit_blacksmith.png",
@@ -360,7 +252,7 @@
     "sha256": "b555eadc4e04b8a70ce113c934a54e855faab5fe0448554bbeb76f3633719b71"
   },
   {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_fur_trapper.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_carpenter.png",
     "dimensions": [
       256,
       256
@@ -369,19 +261,7 @@
       0,
       255
     ],
-    "sha256": "88ccd511f32ec0818ec70f6c3ad243260fffb636393526779c0a86d5946a0b21"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_fur_trader.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "4c788a24cd0ef111ab2ca5bd1270aeb48140b4ec8e4fc1467ce97186d1ebb46e"
+    "sha256": "14ac9a205363e49da55c6177bde4ced3e758c8e395de89dba824697a3d0b874f"
   },
   {
     "file": "Assets/Textures/StudentDraft/LandUnits/unit_cotton_planter.png",
@@ -408,7 +288,7 @@
     "sha256": "8cd1c7dc8d029587141854b88624c1d65e9af674b08698218ffa70808619a3c7"
   },
   {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_missionary.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_criminal.png",
     "dimensions": [
       256,
       256
@@ -417,10 +297,10 @@
       0,
       255
     ],
-    "sha256": "fc4bbecffd48d478f5290db404cd45cf185ce229ff8d17cd42ef2e2f7e4831b8"
+    "sha256": "822c85d02312eef7ca132a99d358afeb23faf9312de76440db5d214304436f62"
   },
   {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_statesman.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_farmer.png",
     "dimensions": [
       256,
       256
@@ -429,7 +309,55 @@
       0,
       255
     ],
-    "sha256": "db353262e04f685d889a3dfe67f1e3e2ad85b55e3d8576e309684b3380d3a4fe"
+    "sha256": "7d397b8bd50f4be52b07223b4cd1eebad73208261ec42c0e28e8b6d0680eb152"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_fisherman.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "ab764b217a8f272b38bb1b4d045294b08191972dd1d0489633930974617d85e8"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_free_colonist.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3facb622cef6272595d4f25b9a7cead8c020e6b5d7d79c5d8ef3ebe083c1acbf"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_fur_trader.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "4c788a24cd0ef111ab2ca5bd1270aeb48140b4ec8e4fc1467ce97186d1ebb46e"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_fur_trapper.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "88ccd511f32ec0818ec70f6c3ad243260fffb636393526779c0a86d5946a0b21"
   },
   {
     "file": "Assets/Textures/StudentDraft/LandUnits/unit_gunsmith.png",
@@ -444,7 +372,7 @@
     "sha256": "f64ca4e1776b836b7226b190cf246cb2e01da766fa17b2840af0575fa35647dd"
   },
   {
-    "file": "Assets/Textures/StudentDraft/LandUnits/unit_criminal.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_hardy_pioneer.png",
     "dimensions": [
       256,
       256
@@ -453,10 +381,10 @@
       0,
       255
     ],
-    "sha256": "822c85d02312eef7ca132a99d358afeb23faf9312de76440db5d214304436f62"
+    "sha256": "2b8733b296ccf46762f3b719e5fcd2308f9325faf16149e83455b54503ffcce7"
   },
   {
-    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_caravel.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_lumberjack.png",
     "dimensions": [
       256,
       256
@@ -465,10 +393,10 @@
       0,
       255
     ],
-    "sha256": "853602ebdb641346b19619f798d946a0b17b9283ae6a8ec2000636a6d583be83"
+    "sha256": "8cc579125237be19728aa20f9ef75edd942b513df26f99c3800107b3716d3209"
   },
   {
-    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_merchantman.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_missionary.png",
     "dimensions": [
       256,
       256
@@ -477,10 +405,10 @@
       0,
       255
     ],
-    "sha256": "55ceece681eacd1930fad2dd0a95403b0edec4a7744a98931cca149b3a32a78c"
+    "sha256": "fc4bbecffd48d478f5290db404cd45cf185ce229ff8d17cd42ef2e2f7e4831b8"
   },
   {
-    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_galleon.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_ore_miner.png",
     "dimensions": [
       256,
       256
@@ -489,10 +417,10 @@
       0,
       255
     ],
-    "sha256": "77a941d9a0cab4e215675d3c815d8cbab5d90742c165bccd3b0f8480cb11ca34"
+    "sha256": "ac7e4e9e7206f11dbd97d548fd060a04c9184b1f398c0541ebda4c690fd075cd"
   },
   {
-    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_privateer.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_plain_native.png",
     "dimensions": [
       256,
       256
@@ -501,10 +429,10 @@
       0,
       255
     ],
-    "sha256": "35825b3204e8b1a2cd099f32996525f23084c252ef65bc1458ecb82f0ec3b88b"
+    "sha256": "33379f839ae562db3d7fa4c5889a67c925e93db3c187bcf3840be4a5c92d4a5f"
   },
   {
-    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_frigate.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_scout.png",
     "dimensions": [
       256,
       256
@@ -513,10 +441,10 @@
       0,
       255
     ],
-    "sha256": "71ac8b6904ad261911554f83a4cce20cb146b5e73104eae4ed03c80d1458d906"
+    "sha256": "9065dd66a6b2c2f73a225c3eb41146a282096495b76134227f56e9f73c87dcd9"
   },
   {
-    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_man_of_war.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_soldier.png",
     "dimensions": [
       256,
       256
@@ -525,43 +453,31 @@
       0,
       255
     ],
-    "sha256": "3c763eb22535a8db7561d5477241effc2730c24d22e76d1a002c25a9b102e497"
+    "sha256": "89035db703490d6315181159b71f38f6ae95130ccac65ac5bb778f8e8d48013a"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Leaders/leader_sioux.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_statesman.png",
     "dimensions": [
-      512,
-      1024
+      256,
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "6c9466feb802f8ec70ccd58e3e6120302ac30360f9e28621336e7926825dba44"
+    "sha256": "db353262e04f685d889a3dfe67f1e3e2ad85b55e3d8576e309684b3380d3a4fe"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Leaders/leader_tupi.png",
+    "file": "Assets/Textures/StudentDraft/LandUnits/unit_tropical_native.png",
     "dimensions": [
-      512,
-      1024
+      256,
+      256
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "c3f4857dd63ab6e1039b17cc71f0ce8875cdf267f73caa4247da3e4a5e487043"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Leaders/leader_iroquois.png",
-    "dimensions": [
-      512,
-      1024
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "7b1faacf460a4cf98a31c0bbdf3b43a4cb04b92b816cbcfafd6aff4a0b6309cf"
+    "sha256": "f4ee3a83884a24357c53536592ba85a9eb0335906f4af2746a6a21335e08522c"
   },
   {
     "file": "Assets/Textures/StudentDraft/Leaders/leader_apache.png",
@@ -600,18 +516,6 @@
     "sha256": "be1ebcef2009feda0a2f147064716ccc1be78ab9ecb3c0933c6a82ced1c61ef7"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Leaders/leader_maya.png",
-    "dimensions": [
-      512,
-      1024
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "7e92d20f93509614751fbd7dc1958168548d28b2007042ee00d94f7ca40bd7ed"
-  },
-  {
     "file": "Assets/Textures/StudentDraft/Leaders/leader_inca.png",
     "dimensions": [
       512,
@@ -624,31 +528,55 @@
     "sha256": "131571ad7f4edfd7972f93b9b0f1ca72a385e2539bd78cc26f6eab6c9b46b2a4"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Towns/town_sioux.png",
+    "file": "Assets/Textures/StudentDraft/Leaders/leader_iroquois.png",
     "dimensions": [
-      256,
-      256
+      512,
+      1024
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "7c952dbc22cb0389c35c205bdc3b2a94e62a2a7b79c76ec7603addb9bb61d333"
+    "sha256": "7b1faacf460a4cf98a31c0bbdf3b43a4cb04b92b816cbcfafd6aff4a0b6309cf"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Towns/town_tupi.png",
+    "file": "Assets/Textures/StudentDraft/Leaders/leader_maya.png",
     "dimensions": [
-      256,
-      256
+      512,
+      1024
     ],
     "alpha": [
       0,
       255
     ],
-    "sha256": "4f8c88fdbb11922fbfb05dee9c6d03127911f682a290a55f39f91d50a57fae99"
+    "sha256": "7e92d20f93509614751fbd7dc1958168548d28b2007042ee00d94f7ca40bd7ed"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Towns/town_iroquois.png",
+    "file": "Assets/Textures/StudentDraft/Leaders/leader_sioux.png",
+    "dimensions": [
+      512,
+      1024
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "6c9466feb802f8ec70ccd58e3e6120302ac30360f9e28621336e7926825dba44"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Leaders/leader_tupi.png",
+    "dimensions": [
+      512,
+      1024
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c3f4857dd63ab6e1039b17cc71f0ce8875cdf267f73caa4247da3e4a5e487043"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_caravel.png",
     "dimensions": [
       256,
       256
@@ -657,7 +585,403 @@
       0,
       255
     ],
-    "sha256": "f3ff9fa4fb322163655c98507a295d86a7c95615896260d0b5a4800210000b20"
+    "sha256": "853602ebdb641346b19619f798d946a0b17b9283ae6a8ec2000636a6d583be83"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_frigate.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "71ac8b6904ad261911554f83a4cce20cb146b5e73104eae4ed03c80d1458d906"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_galleon.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "77a941d9a0cab4e215675d3c815d8cbab5d90742c165bccd3b0f8480cb11ca34"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_man_of_war.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3c763eb22535a8db7561d5477241effc2730c24d22e76d1a002c25a9b102e497"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_merchantman.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "55ceece681eacd1930fad2dd0a95403b0edec4a7744a98931cca149b3a32a78c"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/NavalUnits/ship_privateer.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "35825b3204e8b1a2cd099f32996525f23084c252ef65bc1458ecb82f0ec3b88b"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_cigar.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "d72f1f4e22fd9297fbd1390339365283d49431888cc4063711666e2aa8fb3a9c"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_cloth.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "85b3104c30410af129dbdbc902980a4947c43dd6a1459b3d0c822491424118b2"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_coat.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "ab56f3735318c41796256f47f92d11917e5563cb356c441550758310448d5825"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_corn.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "2fcb931c6b113bd1e51ee847e8177b7b009a456677f44f5a72f380634a01e597"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_cotton.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c40fe0d7a4505bafa7395e5f2910a32fc142f192698b74077c9266decebd9d0f"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_fish.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "76d0cd139678d7b274a2ea88a73d8ddcc509e6702f69809868472454f5ade30a"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_furs.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "e4dbb430ee93fbac4b960ae6240f4c194df890d877618adcf4ab6a592b16a316"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_horse.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c835c783eeb2370e1410551f3f112b7eae038c381331e984a4d689cd9b9cd9fd"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_iron_ore.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "87f13ebd13eb25363b894cf7af1674d77be580a8c91764a6bac6a591201e5be3"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_lumber.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "576431f0cd6a8b91673378000fb1e6c755de9109cba23f7fd088ee457b902a4d"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_musket.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "d83f198aedc345d4b11e42610dfc0a41ce4143de624febe4d1a4999aaead60a9"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_rum.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "7a83fae8b61ce23c333b103868ca4d5acadd06dffc27ccfa772aa83561dbd0b5"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_silver.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "6fc898aab5ccb1c9655dc90b5dc16db42dfdea208cc02c5303057820841b493f"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_sugar.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "4e8420ce358f6043a46bf12cdba188496789853fc34c6885b26805d7ddac63a2"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_tobacco.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b0ffd1e44a22de86d9524b2a575360066200103cd948fbf662bbfe73b70a73a7"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_tools.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "6aeab0eaf69a8cc817cf5e6ad30a0930c8166d13445e6bc392b578054f8da701"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Resources/resource_trade_goods.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "9a528997ccde59c037a69ae5c1b7e087133c531809be3433835d3b74aaaa50db"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_arctic.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c69cdb3755474d8116c83fcce831f64947ff96ca4fe0d7490ce2270207952441"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_desert.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "32942906055ba6cc51b9e701f298738a4a44cb3986a30c9bd1736b65fab24bc7"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_grassland.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "2cc9c66c79cfa1bba7df9afdf5a9b2b8fad5cfd1a54cc6f7ac75b040fc135fb0"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_hills.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "1a5e630ca77b15ec069c161264c5fbefdf4b3ab07ae4ad8eb277cfb1511229d9"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_mountains.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "a0bd7a9002d61a80e7d4863eaeeb86d14d0c80b0dabb850eefd0aee6de99d00d"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_ocean.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "299a925fa2d57d28d8f372f0e4c30fcc8dde70f1b04a616f1192127119f59eb2"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_plain.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3b3b0b21904dbfb435d993342e9a9b55a7e28d345dd70d2695b205b3ce21f8e7"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_prairie.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "1a886d3b4c95435ceb576dbecb0eba149f34a4177db99b58b94895e5e91374a3"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_savanna.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "3cc60766a40bbec0bc0c40e57d79cd428ef1873cdbde53131bf40d2b718f6dda"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_swamp.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b68eb39034fdeb35a7df4624f922806aeeec9d3b852b585262ed5d7cd3acd84e"
+  },
+  {
+    "file": "Assets/Textures/StudentDraft/Terrain/terrain_tundra.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "8d09bc79968c2f0867ddc5b1ef551c7fef1ee380490d4800b66aec58fff64167"
   },
   {
     "file": "Assets/Textures/StudentDraft/Towns/town_apache.png",
@@ -696,18 +1020,6 @@
     "sha256": "1371327a78a54798ec135e4cb7ac43648770027f1928a0a1dec7bd0def7514b7"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Towns/town_maya.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "5bb2515324b500d84d57bbe894a660cc6dcc3da2e8b43e8d94377fecd408af60"
-  },
-  {
     "file": "Assets/Textures/StudentDraft/Towns/town_inca.png",
     "dimensions": [
       256,
@@ -720,7 +1032,7 @@
     "sha256": "944b07160c2b1dfa8e00a0ba13a26a5575e560b6f85bb49a0fb27bcb2922b3e8"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_sioux.png",
+    "file": "Assets/Textures/StudentDraft/Towns/town_iroquois.png",
     "dimensions": [
       256,
       256
@@ -729,10 +1041,10 @@
       0,
       255
     ],
-    "sha256": "1ec173926d4bdc290d5a008b1cc203a2835fee6b1def61a506b323136a00877d"
+    "sha256": "f3ff9fa4fb322163655c98507a295d86a7c95615896260d0b5a4800210000b20"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_tupi.png",
+    "file": "Assets/Textures/StudentDraft/Towns/town_maya.png",
     "dimensions": [
       256,
       256
@@ -741,10 +1053,10 @@
       0,
       255
     ],
-    "sha256": "c31b0db74f12c4a869bb25fdbcb2191b55e92c0ec832a1f0a89d0883f101b80c"
+    "sha256": "5bb2515324b500d84d57bbe894a660cc6dcc3da2e8b43e8d94377fecd408af60"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_iroquois.png",
+    "file": "Assets/Textures/StudentDraft/Towns/town_sioux.png",
     "dimensions": [
       256,
       256
@@ -753,10 +1065,10 @@
       0,
       255
     ],
-    "sha256": "1792edb9c17f1a6e6e48339740fc8d6a76681db76cdb734655e4bb260586faba"
+    "sha256": "7c952dbc22cb0389c35c205bdc3b2a94e62a2a7b79c76ec7603addb9bb61d333"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_apache.png",
+    "file": "Assets/Textures/StudentDraft/Towns/town_tupi.png",
     "dimensions": [
       256,
       256
@@ -765,10 +1077,10 @@
       0,
       255
     ],
-    "sha256": "6884f071cab00a9f8f767c35711bd510209dcb5195657e0aae63e9eca36b331f"
+    "sha256": "4f8c88fdbb11922fbfb05dee9c6d03127911f682a290a55f39f91d50a57fae99"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_aztec.png",
+    "file": "Assets/Textures/StudentDraft/UI/town_european.png",
     "dimensions": [
       256,
       256
@@ -777,102 +1089,18 @@
       0,
       255
     ],
-    "sha256": "917f138eb63371e804f124d6fb9ac7bae6d4704b76b806d347bcf1f6eea0dd82"
+    "sha256": "ac797689ab322133f43bc84f3f8bbeb86e59abcb3e752d88795d97ec44fe5238"
   },
   {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_huron.png",
+    "file": "Assets/Textures/StudentDraft/UI/town_scene.png",
     "dimensions": [
-      256,
-      256
+      1920,
+      1080
     ],
     "alpha": [
-      0,
+      255,
       255
     ],
-    "sha256": "23367db899ba4e2d4057492b1efd9baeec8b2eb24b62431c2c6b6f3f0e6a538f"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_maya.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "daa6ea06ddc591aa1584b999c7cf32914356241b4c6daf7d3fa69383843a3743"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_inca.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "d192a623d00a99cce6ec55ec410a49915f01b63a0483d81060921c9daf111d32"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_england.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "d5c6ed6b457fab64bb7db56325f5415fc24c3ab102322e41cbd0d295dcceaad1"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_france.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "d3045a0ae48a3e16f4beee2170661a0e98de9e38e785aa790fa002a3051450ab"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_spain.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "39d4752ca4a1d87bfe3058c418686c5b70bbdac9a6806dd32f7af58f50023b72"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_netherland.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "44def33f60fd99df948928e633b16498e0de35681032981791581426a04e2fea"
-  },
-  {
-    "file": "Assets/Textures/StudentDraft/Flags/flag_portugal.png",
-    "dimensions": [
-      256,
-      256
-    ],
-    "alpha": [
-      0,
-      255
-    ],
-    "sha256": "d3102b9884ebad87f7862b4669e67a51d66489a324bb775a1dab0655e48da096"
+    "sha256": "40ed60cd5cb29f43553c29411305905d14d45fd2f724f1446ae1e316a3f37abc"
   }
 ]

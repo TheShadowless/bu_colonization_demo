@@ -69,6 +69,7 @@ public class LandUnit : Unit
     protected override void Update()
     {
         base.Update();
+        if (UIManager.instance != null && UIManager.instance.IsTownOpen) return;
 
         if (Keyboard.current.bKey.wasPressedThisFrame)
         {

@@ -16,7 +16,7 @@ MonoBehaviour:
   navalUnitType: 1
   strength: 6
   movePointMax: 5
-  visualRange: 0
+  visualRange: 1
   shipIcon: {fileID: 21300000, guid: 2fef630128ed18e419b5a873ec9c678b, type: 3}
   armed: 0
   cargoHoldNum: 4

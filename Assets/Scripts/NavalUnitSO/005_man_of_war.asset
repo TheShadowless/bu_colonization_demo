@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c4b5fad94210d84c97eed4a7492f7fc, type: 3}
   m_Name: 005_man_of_war
   m_EditorClassIdentifier: Assembly-CSharp::NavalUnitData
-  unitName: 
+  unitName: Man of War
   navalUnitType: 5
-  strength: 7
-  movePointMax: 4
+  strength: 24
+  movePointMax: 6
   visualRange: 1
   shipIcon: {fileID: 21300000, guid: 60df02bbf31b7644f8d6192e7d5713b9, type: 3}
   armed: 1
-  cargoHoldNum: 2
+  cargoHoldNum: 6

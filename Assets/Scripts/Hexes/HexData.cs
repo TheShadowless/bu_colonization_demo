@@ -8,5 +8,7 @@ public class HexData : ScriptableObject
     public Sprite[] terrainSprites;
     public Sprite[] forestSprites;
     public int[] resourceYield;
+    // Authored forest-only potential: Fur, Lumber. Base Week 2 yields remain unchanged.
+    public int[] forestProducts = new int[2];
     public int moveCost;
 }

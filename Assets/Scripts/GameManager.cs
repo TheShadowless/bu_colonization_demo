@@ -4,6 +4,10 @@ using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private ProductData[] productData;
+    public ProductData[] ProductData => productData;
+    [SerializeField] private int startingYear = 1492;
+    public int CurrentYear => startingYear + (gameTurn - 1) / 2;
     [SerializeField]
     private Grid grid;
 
@@ -124,6 +128,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (UIManager.instance != null && UIManager.instance.IsTownOpen) return;
         if (Keyboard.current.iKey.wasPressedThisFrame)
             ToggleHexText();
 
@@ -541,6 +546,7 @@ public class GameManager : MonoBehaviour
 
     public void Endturn()
     {
+        if (!playerTurn || (UIManager.instance != null && UIManager.instance.IsTownOpen)) return;
         if (curUnit != null)
             curUnit.ToggleBorder(false, Color.green);
 
@@ -565,6 +571,7 @@ public class GameManager : MonoBehaviour
 
     public void SetupCurrentTown(Town town)//setup town panel
     {
+        if (town == null || town.Faction != playerFaction || !playerTurn) return;
         curTown = town;
         Hex[] aroundHexes = HexCalculator.GetHexAroundToArray(allHexes, curTown.CurHex);
 

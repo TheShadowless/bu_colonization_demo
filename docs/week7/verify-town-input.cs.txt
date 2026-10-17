@@ -1,0 +1,15 @@
+var gm=GameManager.instance;var ui=UIManager.instance;var town=gm.CurTown;var unit=gm.CurUnit;
+ui.ToggleTownPanel(false);var actives=new System.Collections.Generic.Dictionary<Unit,bool>();foreach(var u in town.CurHex.UnitsInHex){actives[u]=u.gameObject.activeSelf;u.gameObject.SetActive(false);}gm.CurUnit=null;
+CameraController.instance.MoveCamera(town.CurHex.Pos);var cam=UnityEngine.Camera.main;var p=cam.WorldToScreenPoint(town.CurHex.Pos);var startPos=cam.transform.position;var size=cam.orthographicSize;int turn=gm.GameTurn;
+var mouse=UnityEngine.InputSystem.InputSystem.AddDevice<UnityEngine.InputSystem.Mouse>("TownClickVerification");
+var keyboard=UnityEngine.InputSystem.InputSystem.AddDevice<UnityEngine.InputSystem.Keyboard>("TownInputVerification");
+bool down=false,hold=false;int stage=0;bool opened=false;
+System.Action before=()=>{if(UnityEngine.InputSystem.LowLevel.InputState.currentUpdateType!=UnityEngine.InputSystem.LowLevel.InputUpdateType.Dynamic)return;UnityEngine.InputSystem.InputSystem.QueueStateEvent(mouse,new UnityEngine.InputSystem.LowLevel.MouseState{position=p,buttons=(ushort)(down?1:0)});UnityEngine.InputSystem.InputSystem.QueueStateEvent(keyboard,hold?new UnityEngine.InputSystem.LowLevel.KeyboardState(UnityEngine.InputSystem.Key.W,UnityEngine.InputSystem.Key.Z,UnityEngine.InputSystem.Key.Backspace):new UnityEngine.InputSystem.LowLevel.KeyboardState());};
+UnityEngine.InputSystem.InputSystem.onBeforeUpdate+=before;double started=UnityEditor.EditorApplication.timeSinceStartup;UnityEditor.EditorApplication.CallbackFunction tick=null;
+tick=()=>{double t=UnityEditor.EditorApplication.timeSinceStartup-started;UnityEditor.EditorApplication.QueuePlayerLoopUpdate();
+if(stage==0&&t>1){down=true;stage++;}
+else if(stage==1&&t>2){down=false;stage++;}
+else if(stage==2&&t>3){opened=ui.IsTownOpen;hold=true;stage++;}
+else if(stage==3&&t>5){hold=false;stage++;}
+else if(stage==4&&t>6){var result=new{townClickReopensWithNoSelectedUnit=opened,cameraBlocked=cam.transform.position==startPos&&cam.orthographicSize==size,turnBlocked=gm.GameTurn==turn};System.IO.File.WriteAllText(@"C:\Users\kitti\Documents\Codex\2026-10-17\unity-bu-colonization-git-c-users\work\week7\town-input-validation.json",Newtonsoft.Json.JsonConvert.SerializeObject(result,Newtonsoft.Json.Formatting.Indented));UnityEditor.EditorApplication.update-=tick;UnityEngine.InputSystem.InputSystem.onBeforeUpdate-=before;UnityEngine.InputSystem.InputSystem.RemoveDevice(mouse);UnityEngine.InputSystem.InputSystem.RemoveDevice(keyboard);foreach(var pair in actives)pair.Key.gameObject.SetActive(pair.Value);gm.CurUnit=unit;}
+};UnityEditor.EditorApplication.update+=tick;return "testing town click and camera/turn input isolation";

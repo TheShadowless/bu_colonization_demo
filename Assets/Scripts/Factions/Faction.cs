@@ -20,6 +20,8 @@ public enum Nation
 
 public class Faction : MonoBehaviour
 {
+    [SerializeField] private int gold;
+    public int Gold => gold;
     [SerializeField]
     private Nation nation;
     public Nation Nation { get { return nation; } }

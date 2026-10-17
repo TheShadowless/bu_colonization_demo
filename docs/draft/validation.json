@@ -85,5 +85,10 @@
     "all18BackgroundPixels": 0,
     "profiles": 18,
     "result": "passed"
+  },
+  "latestThroughWeek7": {
+    "passed": true,
+    "evidence": "../week7/validation.json",
+    "note": "Earlier entries above are historical pre-Week-7 verification."
   }
 }

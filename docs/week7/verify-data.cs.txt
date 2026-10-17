@@ -1,0 +1,23 @@
+var gm=GameManager.instance; var ui=UIManager.instance;var checks=new System.Collections.Generic.List<object>();
+System.Action<bool,string> check=(pass,name)=>{checks.Add(new{name,passed=pass});if(!pass)throw new System.Exception(name);};
+int[] moves={4,5,6,8,6,6},power={2,6,10,8,16,24},cargo={2,4,6,2,4,6};
+foreach(var d in gm.NavalUnitData){int id=(int)d.navalUnitType;check(d.movePointMax==moves[id]&&d.strength==power[id]&&d.cargoHoldNum==cargo[id]&&d.visualRange==1&&!string.IsNullOrWhiteSpace(d.unitName),"Ship stats "+d.navalUnitType);}
+check(gm.LandUnitData[5].visualRange==2&&gm.LandUnitData[5].hasHorse,"Scout range/equipment");
+check(gm.LandUnitData[1].hasMusket&&gm.LandUnitData[1].armed,"Soldier equipment");
+check(gm.ProductData.Length==16,"16 products bound");
+for(int i=0;i<16;i++)check(gm.ProductData[i]!=null&&gm.ProductData[i].id==i&&gm.ProductData[i].icons.Length==(i==0?2:1)&&System.Array.TrueForAll(gm.ProductData[i].icons,s=>s!=null),"Product "+i);
+int tested=0;
+foreach(var h in gm.AllHexes)if(h!=null)for(int i=0;i<8;i++){int raw=h.ResourceYield[i];if(i==4||i==5)raw=h.HasForest?gm.HexData[(int)h.HexType].forestProducts[i-4]:0;else if(h.HasForest)raw-=2;if(h.HasTown)raw=(int)System.Math.Ceiling(raw/2.0);raw=System.Math.Max(0,raw);check(YieldRules.NormalYield(h,i)==raw,"Formula "+h.X+","+h.Y+" product "+i);tested++;}
+var home=gm.CurTown; int oldTotal=home.TotalYieldThisTurn[0];
+var slot=System.Array.Find(ui.TownPanel.GetComponentsInChildren<TerrainSlot>(),s=>!s.IsCenter&&s.Hex.HasForest);
+var oldHex=slot.Hex;slot.HexSlotInit(System.Array.Find(ui.TownPanel.GetComponentsInChildren<TerrainSlot>(),s=>!s.IsCenter&&!s.Hex.HasForest).Hex);
+var forestImage=(UnityEngine.UI.Image)typeof(TerrainSlot).GetField("forestImage",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance).GetValue(slot);check(!forestImage.gameObject.activeSelf&&forestImage.sprite==null,"Forest overlay clears on bare tile");
+slot.HexSlotInit(null);check(slot.Hex==null&&System.Array.TrueForAll(slot.NormalYield,n=>n==0)&&!forestImage.gameObject.activeSelf,"Null slot resets all yields and overlays");slot.HexSlotInit(oldHex);
+var edge=gm.AllHexes[0,0];gm.GenerateTown(gm.PlayerFaction,edge);gm.SetupCurrentTown(edge.Town);
+check(System.Array.Exists(ui.TownPanel.GetComponentsInChildren<TerrainSlot>(),s=>!s.IsCenter&&s.Hex==null),"Boundary city has supported null slots");
+gm.SetupCurrentTown(home);check(home.TotalYieldThisTurn[0]==oldTotal&&ui.AllUnitDrags.Count==2,"City switch preserves totals and worker count");
+check(home.Warehouse.Length==16&&System.Array.TrueForAll(home.Warehouse,n=>n==0),"Week 7 warehouse remains unchanged");
+var profile=UnityEngine.Resources.Load<HexArtworkProfiles>("HexArtworkProfiles");check(profile.uiShader!=null&&HexArtworkProfiles.GetUIMaterial(home.CurHex.TerrainSprite.sprite)!=null,"UI Hex fit shader referenced");
+var result=new{passed=true,formulaSamples=tested,checks=checks.FindAll(x=>!((bool)x.GetType().GetProperty("passed").GetValue(x))||!((string)x.GetType().GetProperty("name").GetValue(x)).StartsWith("Formula")),formulaFailures=0};
+System.IO.File.WriteAllText(@"C:\Users\kitti\Documents\Codex\2026-10-17\unity-bu-colonization-git-c-users\work\week7\data-validation.json",Newtonsoft.Json.JsonConvert.SerializeObject(result,Newtonsoft.Json.Formatting.Indented));
+return new{passed=true,formulaSamples=tested,checks=checks.Count};

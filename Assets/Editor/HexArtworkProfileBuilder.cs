@@ -109,6 +109,7 @@ public static class HexArtworkProfileBuilder
             AssetDatabase.CreateAsset(profiles, profilePath);
         }
         profiles.entries = entries.ToArray();
+        profiles.uiShader = Shader.Find("Colonization/Hex Artwork Fit UI");
         EditorUtility.SetDirty(profiles);
         AssetDatabase.SaveAssets();
         Debug.Log("Hex artwork profiles rebuilt: " + entries.Count);

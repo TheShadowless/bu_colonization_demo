@@ -1,0 +1,302 @@
+[
+  {
+    "key": "corn",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_corn.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-5dbe64d0-7b8e-4d69-b705-1521437d4403.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "2fcb931c6b113bd1e51ee847e8177b7b009a456677f44f5a72f380634a01e597",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A pair of ripe golden maize corn cobs, one partly wrapped in fresh green husks. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "sugar",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_sugar.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-25da8966-3aa6-40bd-8f93-9bf3759b71da.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "4e8420ce358f6043a46bf12cdba188496789853fc34c6885b26805d7ddac63a2",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A short bundle of freshly cut sugar cane stalks beside a small mound of raw pale sugar. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "tobacco",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_tobacco.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-68d96346-e75b-4dbc-b94f-9fb1a2bcf8f7.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "b0ffd1e44a22de86d9524b2a575360066200103cd948fbf662bbfe73b70a73a7",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A tied bunch of broad cured ochre-brown tobacco leaves, distinctive leaf silhouette. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "cotton",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_cotton.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-9cb483f9-95db-4107-8017-3fde8445f172.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c40fe0d7a4505bafa7395e5f2910a32fc142f192698b74077c9266decebd9d0f",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: Several fluffy ivory cotton bolls on short woody stems with a few green leaves. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "furs",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_furs.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-e01ec761-2439-4021-97dd-40c861e8e600.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "e4dbb430ee93fbac4b960ae6240f4c194df890d877618adcf4ab6a592b16a316",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A compact folded stack of reddish brown and grey animal pelts with soft fur edges, no head or live animal. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "lumber",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_lumber.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-b5c2a272-af69-46c0-b014-492e8063a7ee.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "576431f0cd6a8b91673378000fb1e6c755de9109cba23f7fd088ee457b902a4d",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A small neat stack of three freshly sawn timber beams and one short round log, visible warm wood grain. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "iron_ore",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_iron_ore.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-becad5be-f507-4709-8dc1-758ad3812fdd.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "87f13ebd13eb25363b894cf7af1674d77be580a8c91764a6bac6a591201e5be3",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A small rugged cluster of dark iron ore rocks with rusty red-brown mineral surfaces and metallic grey facets. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "silver",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_silver.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-cf8f060b-2bb6-474a-8d33-d7e8e1f54fd0.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "6fc898aab5ccb1c9655dc90b5dc16db42dfdea208cc02c5303057820841b493f",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: Two bright cool-silver ingots beside one small natural silver ore rock, distinct metallic highlights. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "coat",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_coat.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-216858f6-e002-41a3-8822-c39625d382c9.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "ab56f3735318c41796256f47f92d11917e5563cb356c441550758310448d5825",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: One folded heavy brown wool coat with pale fur lining and collar, recognisable colonial winter garment, no person or hanger. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "trade_goods",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_trade_goods.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-70009c81-4545-4087-a5ca-53f0cc27408c.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "9a528997ccde59c037a69ae5c1b7e087133c531809be3433835d3b74aaaa50db",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A compact tied parcel of everyday early-colonial trade goods: folded dyed cloth, a short string of glass beads and one plain pewter cup, no weapons. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "tools",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_tools.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-473e1d9a-19b7-463c-8e68-d0056aa688a3.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "6aeab0eaf69a8cc817cf5e6ad30a0930c8166d13445e6bc392b578054f8da701",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A small bundle of hand-forged early-colonial tools: an iron hammer, tongs and a wooden-handled pick, overlapping cleanly into one compact icon. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "musket",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_musket.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-2d61aed9-cc47-463d-80f9-37dba9f085a6.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "d83f198aedc345d4b11e42610dfc0a41ce4143de624febe4d1a4999aaead60a9",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: One complete long wooden-stock flintlock musket from the late seventeenth century, diagonal orientation, clearly readable lock and long barrel, no person, no modern rifle features. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "horse",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_horse.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-c67b2919-9c6c-453f-9d04-ae14e7f07ae4.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "c835c783eeb2370e1410551f3f112b7eae038c381331e984a4d689cd9b9cd9fd",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: One healthy chestnut working horse in a calm side-three-quarter stance, complete four legs, ears and tail, simple period halter, no rider, no saddle scene. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "rum",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_rum.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-3e19ba81-18d5-4929-b172-bcb94499bac1.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "7a83fae8b61ce23c333b103868ca4d5acadd06dffc27ccfa772aa83561dbd0b5",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A squat clear glass bottle of amber rum with a plain cork beside a small dark wooden cup; no printed label. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "cigar",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_cigar.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-fe51bb9b-29f8-45d5-8d28-c4557cd23b9d.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "d72f1f4e22fd9297fbd1390339365283d49431888cc4063711666e2aa8fb3a9c",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: Three hand-rolled brown cigars in a small tied bundle, one loose cigar showing the wrapped leaf texture, no flame or smoke. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "cloth",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_cloth.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-4d9a3b90-58a2-4e8e-9c3a-6c127f574aa4.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "85b3104c30410af129dbdbc902980a4947c43dd6a1459b3d0c822491424118b2",
+    "prompt": "Use case: stylized-concept. Asset type: one production-ready resource inventory icon for the historical BU Colonization strategy game, set approximately 1500–1700. Subject: A neatly folded stack and one small roll of woven cream and indigo cotton cloth, tactile fabric weave, no modern tags. Style: polished detailed hand-painted miniature illustration, slightly isometric three-quarter view, warm natural light from upper left, muted earthy palette with gentle golden highlights, crisp readable silhouette, consistent with realistic illustrated colonial-era game units. Composition: a SINGLE centered isolated resource, occupying about 82 percent of the square canvas with complete silhouette and generous even clear margins. No ground tile, no hexagon, no circle or frame, no lettering, no numbers, no watermark, no UI, no shadow outside the object. Genuine transparent background. This is an individual icon, not a sheet."
+  },
+  {
+    "key": "ocean",
+    "path": "Assets/Textures/StudentDraft/Terrain/terrain_ocean.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-95503d55-1b35-45f9-840c-d6effae83296.png",
+    "dimensions": [
+      256,
+      384
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "299a925fa2d57d28d8f372f0e4c30fcc8dde70f1b04a616f1192127119f59eb2",
+    "prompt": "Edit target is the existing hex Ocean tile. Keep the same pointy-top hex shape, dimensions and transparent exterior. Remove ALL boats, ALL islands, ALL exposed rocks, ALL coastline and sandy land; replace inside the hex with uninterrupted deep Atlantic blue water, fine gentle painted waves and subtle turquoise variation. Preserve the detailed hand-painted style, topdown view and warm thin hex outline. No horizon, no ships, no terrain protrusions, no text. This tile repeats across a large ocean map so its interior must read as clean connected water. Genuine alpha outside the hex.\nProduction game asset, historical BU Colonization 1500–1700. Detailed hand-painted miniature illustration with crisp readable silhouette, upper-left light, warm muted palette. SINGLE isolated asset centered with clear margins, no text/numbers/UI/watermark. Genuine transparent background. For fish and town icon fill about82% square."
+  },
+  {
+    "key": "fish",
+    "path": "Assets/Textures/StudentDraft/Resources/resource_fish.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-74b018c6-6359-4ac3-be4e-1281da0beee2.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "76d0cd139678d7b274a2ea88a73d8ddcc509e6702f69809868472454f5ade30a",
+    "prompt": "ONE inventory resource icon: two freshly caught silver-blue Atlantic fish, complete bodies with fins and tails. 3/4 diagonal composition. No fishing equipment.\nProduction game asset, historical BU Colonization 1500–1700. Detailed hand-painted miniature illustration with crisp readable silhouette, upper-left light, warm muted palette. SINGLE isolated asset centered with clear margins, no text/numbers/UI/watermark. Genuine transparent background. For fish and town icon fill about82% square."
+  },
+  {
+    "key": "town_european",
+    "path": "Assets/Textures/StudentDraft/UI/town_european.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-1d455769-bace-40f4-9057-4b7c8b188947.png",
+    "dimensions": [
+      256,
+      256
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "ac797689ab322133f43bc84f3f8bbeb86e59abcb3e752d88795d97ec44fe5238",
+    "prompt": "ONE world-map settlement icon for a 16th–17th-century small European coastal colony in North America: clustered timber and pale plaster houses, tiny wooden church, palisade gate, dirt courtyard, warm red-brown rooftops. Slightly isometric 3/4 topdown miniature, no people, no flags, no boats, no ground tile or hex, no background. Compact legible silhouette; all buildings fully visible.\nProduction game asset, historical BU Colonization 1500–1700. Detailed hand-painted miniature illustration with crisp readable silhouette, upper-left light, warm muted palette. SINGLE isolated asset centered with clear margins, no text/numbers/UI/watermark. Genuine transparent background. For fish and town icon fill about82% square."
+  },
+  {
+    "key": "town_scene",
+    "path": "Assets/Textures/StudentDraft/UI/town_scene.png",
+    "source": "C:\\Users\\kitti\\.codex\\generated_images\\01a14635-fd3f-7e70-94b4-8b426de960b2\\exec-49ba0920-e293-46c4-9e38-618b0d624865.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "alpha": [
+      255,
+      255
+    ],
+    "sha256": "40ed60cd5cb29f43553c29411305905d14d45fd2f724f1446ae1e316a3f37abc",
+    "prompt": "Wide 16:9 matte illustration for the building area of a historical colony management screen, around 1600, small timber-framed European settlement on American coast: layered wooden and cream-plaster workshops with red-brown roofs, church spire, dirt paths, harbor glimpse, farm and forest distant. Elevated 3/4 isometric painterly view, muted navy/teal shadows, ochre sunlight, natural earthy palette matching a detailed hand-painted hex strategy game. Fill complete landscape canvas edge to edge, serene morning. No interface, no text, no labels, no icons, no border or watermark. Decorative backdrop behind reserved building slots, clear central open courtyard."
+  }
+]

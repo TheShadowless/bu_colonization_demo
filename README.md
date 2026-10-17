@@ -31,9 +31,9 @@ The student artwork is connected through the original Texture2D/Sprite and Scrip
 - 13 Europe/Native faction flags and 8 Native settlement icons.
 - 8 transparent Native leader illustrations and the Week 3–6 design catalogue.
 
-[Week 3–6 Canva presentation](https://www.canva.com/d/HSXQdkDSmvqu63D) contains 27 pages. [Week 1–2 original work](https://www.canva.com/d/YCCt4hQw3R_Nm4H) is preserved separately.
+[Canva presentation through DOC Week 7](https://www.canva.com/d/P0G2pnZW7p8jqBb) contains 36 editable pages. [Week 1–2 original work](https://www.canva.com/d/YCCt4hQw3R_Nm4H) is preserved separately.
 
-[Download the gameplay video, assignment PNGs and presentation](https://github.com/TheShadowless/bu_colonization_demo/releases/tag/draft-2026-10-17-hexfit).
+[Download the gameplay video, assignment PNGs and presentation](https://github.com/TheShadowless/bu_colonization_demo/releases/tag/draft-week7-2026-10-17).
 
 The live Unity demonstration covers sailing, disembarking, forest clearing, founding a town, opening the town panel, dragging a worker into a surrounding terrain slot, and returning the worker to the idle area. Both fog renderers are disabled in the Hex prefab for this Draft demonstration.
 
@@ -49,8 +49,12 @@ Terrain and forest illustrations now fit the Grid without the visible background
 
 ### Scope
 
-Gameplay structure is retained. Existing enum IDs are preserved; the missing profession labels are appended to store the complete icon catalogue. Existing starting units and their behavior remain in place. Additional professions/ships are data entries, not new recruitment systems. The optional Week 7 production extension has not been added.
+Gameplay structure is retained. Existing enum IDs are preserved; the missing profession labels are appended to store the complete icon catalogue. Existing starting units and their behavior remain in place. Additional professions/ships are data entries, not new recruitment systems. DOC Week 7 production and Assignment 7–8 are implemented. Warehouse transfer starts in DOC Week 9.
 
 Native faction emblems are original game designs. Fictional leaders, scenario rivals, aggression and economic preferences are clearly identified as design choices. Historical context and the distinction between research and gameplay values are documented in [design notes](docs/draft/design-notes.md), [catalogue data](docs/draft/design-catalogue.json), and the Canva speaker notes.
 
 See [submission links](docs/draft/submission.md) and [asset manifest](docs/draft/asset-manifest.json).
+
+## Through DOC Week 7
+
+[Expanded Canva, 36 editable pages](https://www.canva.com/d/P0G2pnZW7p8jqBb) and [updated release](https://github.com/TheShadowless/bu_colonization_demo/releases/tag/draft-week7-2026-10-17) include the new Town Panel and resource art. Choose professions after dropping a worker, click assigned workers to change work, and use Exit/Escape to close. [Week 7 plan](docs/week7/plan.md), [validation](docs/week7/validation.json), and [submission notes](docs/week7/submission.md) record the current scope.

@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-17",
+  "unity": "6000.3.19f1",
+  "scene": "Assets/Scenes/Map01.unity",
+  "passed": true,
+  "data": {
+    "passed": true,
+    "formulaSamples": 24000,
+    "checks": [
+      {
+        "name": "Ship stats Caravel",
+        "passed": true
+      },
+      {
+        "name": "Ship stats Merchantman",
+        "passed": true
+      },
+      {
+        "name": "Ship stats Galleon",
+        "passed": true
+      },
+      {
+        "name": "Ship stats Privateer",
+        "passed": true
+      },
+      {
+        "name": "Ship stats Frigate",
+        "passed": true
+      },
+      {
+        "name": "Ship stats ManOWar",
+        "passed": true
+      },
+      {
+        "name": "Scout range/equipment",
+        "passed": true
+      },
+      {
+        "name": "Soldier equipment",
+        "passed": true
+      },
+      {
+        "name": "16 products bound",
+        "passed": true
+      },
+      {
+        "name": "Product 0",
+        "passed": true
+      },
+      {
+        "name": "Product 1",
+        "passed": true
+      },
+      {
+        "name": "Product 2",
+        "passed": true
+      },
+      {
+        "name": "Product 3",
+        "passed": true
+      },
+      {
+        "name": "Product 4",
+        "passed": true
+      },
+      {
+        "name": "Product 5",
+        "passed": true
+      },
+      {
+        "name": "Product 6",
+        "passed": true
+      },
+      {
+        "name": "Product 7",
+        "passed": true
+      },
+      {
+        "name": "Product 8",
+        "passed": true
+      },
+      {
+        "name": "Product 9",
+        "passed": true
+      },
+      {
+        "name": "Product 10",
+        "passed": true
+      },
+      {
+        "name": "Product 11",
+        "passed": true
+      },
+      {
+        "name": "Product 12",
+        "passed": true
+      },
+      {
+        "name": "Product 13",
+        "passed": true
+      },
+      {
+        "name": "Product 14",
+        "passed": true
+      },
+      {
+        "name": "Product 15",
+        "passed": true
+      },
+      {
+        "name": "Forest overlay clears on bare tile",
+        "passed": true
+      },
+      {
+        "name": "Null slot resets all yields and overlays",
+        "passed": true
+      },
+      {
+        "name": "Boundary city has supported null slots",
+        "passed": true
+      },
+      {
+        "name": "City switch preserves totals and worker count",
+        "passed": true
+      },
+      {
+        "name": "Week 7 warehouse remains unchanged",
+        "passed": true
+      },
+      {
+        "name": "UI Hex fit shader referenced",
+        "passed": true
+      }
+    ],
+    "formulaFailures": 0
+  },
+  "ui": {
+    "result": "passed",
+    "checks": [
+      {
+        "name": "Pointer drag opens profession chooser",
+        "passed": true
+      },
+      {
+        "name": "Zero-yield profession button disabled",
+        "passed": true
+      },
+      {
+        "name": "Lumber button updates selected yield and total",
+        "passed": true
+      },
+      {
+        "name": "Assigned worker click reopens profession chooser",
+        "passed": true
+      },
+      {
+        "name": "Profession change removes previous output",
+        "passed": true
+      },
+      {
+        "name": "Second worker assigned to sea",
+        "passed": true
+      },
+      {
+        "name": "Sea Food adds fish production",
+        "passed": true
+      },
+      {
+        "name": "Repeated refresh does not duplicate totals",
+        "passed": true
+      },
+      {
+        "name": "Return worker clears assignment and reduces totals",
+        "passed": true
+      },
+      {
+        "name": "Occupied tile rejects second worker",
+        "passed": true
+      },
+      {
+        "name": "Exit button closes town via pointer",
+        "passed": true
+      },
+      {
+        "name": "Enter reopens town without duplicate workers or yields",
+        "passed": true
+      },
+      {
+        "name": "Escape closes town",
+        "passed": true
+      },
+      {
+        "name": "Town panel blocks world Endturn",
+        "passed": true
+      },
+      {
+        "name": "Null boundary slot resets its data",
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "label": "Town with selected Farmer",
+        "frame": 5193
+      }
+    ],
+    "frame": 201,
+    "stage": 49
+  },
+  "townInput": {
+    "townClickReopensWithNoSelectedUnit": true,
+    "cameraBlocked": true,
+    "turnBlocked": true,
+    "testedKeys": [
+      "W",
+      "Z",
+      "Backspace"
+    ],
+    "fixture": "Town created on cleared ground, matching gameplay preconditions"
+  },
+  "movement": {
+    "result": "passed",
+    "frame": 306,
+    "seconds": 51.0,
+    "phase": 9,
+    "cleared": true,
+    "built": true,
+    "assigned": false,
+    "returned": false,
+    "events": [
+      {
+        "second": 0.00013070000204606913,
+        "frame": 0,
+        "label": "Live Unity gameplay: map revealed and student artwork installed"
+      },
+      {
+        "second": 4.051559200001066,
+        "frame": 23,
+        "label": "Sailing toward a forested coast"
+      },
+      {
+        "second": 18.8095871000005,
+        "frame": 107,
+        "label": "Coast reached"
+      },
+      {
+        "second": 21.817402000000584,
+        "frame": 124,
+        "label": "Pioneer disembarks"
+      },
+      {
+        "second": 24.835876900000585,
+        "frame": 141,
+        "label": "Clear forest using pioneer tools"
+      },
+      {
+        "second": 34.74550570000065,
+        "frame": 198,
+        "label": "Forest cleared; build settlement"
+      },
+      {
+        "second": 45.62718450000102,
+        "frame": 260,
+        "label": "New settlement completed"
+      },
+      {
+        "second": 49.699273100002756,
+        "frame": 283,
+        "label": "Open town and inspect seven terrain slots"
+      }
+    ]
+  },
+  "art": {
+    "projectPngs": 92,
+    "resourcePngs": 17,
+    "productDataEntries": 16,
+    "issues": []
+  },
+  "canva": {
+    "designId": "DAHYOWR2Viw",
+    "pages": 36,
+    "editableTextReadBack": true,
+    "page30ThumbnailVisuallyChecked": true,
+    "editUrl": "https://www.canva.com/d/P0G2pnZW7p8jqBb"
+  },
+  "video": {
+    "file": "Colonization_Week7_Gameplay.mp4",
+    "seconds": 84.5,
+    "resolution": [
+      1280,
+      720
+    ],
+    "codec": "H.264",
+    "method": "Movement uses actual game APIs; UI uses temporary virtual Mouse/Keyboard state events through InputSystemUIInputModule.",
+    "decodeCheckPassed": true
+  },
+  "console": {
+    "compileErrors": 0,
+    "gameplayExceptions": 0,
+    "toolingNote": "First evaluations after domain reload sometimes returned a five-second Pipeline timeout while scheduled work completed; verified actual state before further mutation."
+  },
+  "scope": {
+    "warehouseTransfer": false,
+    "warehouseTransferDocWeek": 9,
+    "standalonePlayerBuilt": false,
+    "submittedToTeams": false
+  },
+  "preservedUserFiles": [
+    "Packages/manifest.json",
+    "Packages/packages-lock.json",
+    "ProjectSettings/EditorBuildSettings.asset",
+    "ProjectSettings/ProjectSettings.asset",
+    "ProjectSettings/ShaderGraphSettings.asset",
+    "bu_colonization_demo.slnx"
+  ]
+}

@@ -179,12 +179,27 @@
         0,
         3,
         5,
-        1,
+        0,
         0
       ],
       "description": "ป่าสนมีไม้ใบเข็ม เช่น สนและสปรูซ เป็นองค์ประกอบเด่น และมีโครงสร้างเรือนยอดต่างจากป่าใบกว้าง. พบได้ในเขตอบอุ่นและบริเวณภูเขาของอเมริกาเหนือ โดยชนิดของไม้ขึ้นอยู่กับภูมิอากาศและระดับความสูง.",
       "region": "อเมริกาเหนือเขตอบอุ่นและแนวภูเขา",
-      "source": "https://research.fs.usda.gov/silvics/"
+      "source": "https://research.fs.usda.gov/silvics/",
+      "prior_design_resources": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        5,
+        1,
+        0
+      ],
+      "forest_products": [
+        3,
+        5
+      ],
+      "yield_rule": "DOC Week 7 normal yield, before town halving. Base Week 2 potentials preserved."
     },
     {
       "key": "broadleaf",
@@ -198,12 +213,27 @@
         0,
         3,
         4,
-        1,
+        0,
         0
       ],
       "description": "ป่าใบกว้างประกอบด้วยไม้ที่มีแผ่นใบกว้าง และในเขตอบอุ่นหลายชนิดผลัดใบตามฤดูกาล. พบในภาคตะวันออกของอเมริกาเหนือและเขตอบอุ่นชื้น โดยไม่ได้หมายความว่าทุ่ง Prairie ทุกแห่งเคยเป็นป่า.",
       "region": "อเมริกาเหนือตะวันออกและเขตอบอุ่นชื้น",
-      "source": "https://research.fs.usda.gov/silvics/"
+      "source": "https://research.fs.usda.gov/silvics/",
+      "prior_design_resources": [
+        3,
+        0,
+        0,
+        0,
+        3,
+        4,
+        1,
+        0
+      ],
+      "forest_products": [
+        3,
+        4
+      ],
+      "yield_rule": "DOC Week 7 normal yield, before town halving. Base Week 2 potentials preserved."
     },
     {
       "key": "savanna",
@@ -211,6 +241,19 @@
       "cleared": "Savannah",
       "base": 3,
       "resources": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0
+      ],
+      "description": "พื้นที่ป่าโปร่งชนิดนี้มีต้นไม้กระจายอยู่เหนือชั้นหญ้า และมีช่องเปิดมากกว่าป่าทึบ. พบในเขตร้อนที่มีฤดูกาลชัดเจน รวมถึงบางส่วนของอเมริกาใต้ โดยความหนาแน่นของไม้ขึ้นกับน้ำและไฟในระบบนิเวศ.",
+      "region": "อเมริกาใต้เขตร้อนและพื้นที่ฤดูแล้งชัดเจน",
+      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm",
+      "prior_design_resources": [
         1,
         1,
         0,
@@ -220,9 +263,11 @@
         2,
         0
       ],
-      "description": "พื้นที่ป่าโปร่งชนิดนี้มีต้นไม้กระจายอยู่เหนือชั้นหญ้า และมีช่องเปิดมากกว่าป่าทึบ. พบในเขตร้อนที่มีฤดูกาลชัดเจน รวมถึงบางส่วนของอเมริกาใต้ โดยความหนาแน่นของไม้ขึ้นกับน้ำและไฟในระบบนิเวศ.",
-      "region": "อเมริกาใต้เขตร้อนและพื้นที่ฤดูแล้งชัดเจน",
-      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm"
+      "forest_products": [
+        1,
+        3
+      ],
+      "yield_rule": "DOC Week 7 normal yield, before town halving. Base Week 2 potentials preserved."
     },
     {
       "key": "mixed",
@@ -233,15 +278,30 @@
         2,
         0,
         0,
+        0,
+        3,
+        4,
+        0,
+        0
+      ],
+      "description": "ป่าผสมมีทั้งไม้ใบเข็มและไม้ใบกว้างอยู่ร่วมกัน ทำให้เรือนยอดและการเปลี่ยนแปลงตามฤดูกาลมีความหลากหลาย. พบในบริเวณเปลี่ยนผ่านของป่าเขตอบอุ่นและเขตหนาว เช่น รอบเกรตเลกส์และภาคตะวันออกเฉียงเหนือของอเมริกาเหนือ.",
+      "region": "รอบเกรตเลกส์และตะวันออกเฉียงเหนือของอเมริกาเหนือ",
+      "source": "https://research.fs.usda.gov/silvics/",
+      "prior_design_resources": [
+        2,
+        0,
+        0,
         1,
         3,
         4,
         1,
         0
       ],
-      "description": "ป่าผสมมีทั้งไม้ใบเข็มและไม้ใบกว้างอยู่ร่วมกัน ทำให้เรือนยอดและการเปลี่ยนแปลงตามฤดูกาลมีความหลากหลาย. พบในบริเวณเปลี่ยนผ่านของป่าเขตอบอุ่นและเขตหนาว เช่น รอบเกรตเลกส์และภาคตะวันออกเฉียงเหนือของอเมริกาเหนือ.",
-      "region": "รอบเกรตเลกส์และตะวันออกเฉียงเหนือของอเมริกาเหนือ",
-      "source": "https://research.fs.usda.gov/silvics/"
+      "forest_products": [
+        3,
+        4
+      ],
+      "yield_rule": "DOC Week 7 normal yield, before town halving. Base Week 2 potentials preserved."
     },
     {
       "key": "boreal",
@@ -255,12 +315,27 @@
         0,
         4,
         3,
-        2,
+        0,
         0
       ],
       "description": "ไทกาเป็นป่าของละติจูดสูงที่มีไม้ใบเข็มทนหนาวเป็นส่วนสำคัญ และมีฤดูเติบโตค่อนข้างสั้น. พบกว้างขวางในแคนาดา อะแลสกา และยูเรเชีย โดยขอบด้านเหนือเป็นแนวเปลี่ยนผ่านเข้าสู่ Tundra.",
       "region": "แคนาดา อะแลสกา และยูเรเชียตอนเหนือ",
-      "source": "https://research.fs.usda.gov/treesearch/64446"
+      "source": "https://research.fs.usda.gov/treesearch/64446",
+      "prior_design_resources": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        3,
+        2,
+        0
+      ],
+      "forest_products": [
+        4,
+        3
+      ],
+      "yield_rule": "DOC Week 7 normal yield, before town halving. Base Week 2 potentials preserved."
     },
     {
       "key": "scrub",
@@ -274,12 +349,27 @@
         0,
         1,
         1,
-        3,
-        3
+        1,
+        1
       ],
       "description": "ป่าละเมาะแห้งมีไม้พุ่มและไม้เตี้ยที่ทนต่อการขาดน้ำ โดยมักมีเรือนยอดไม่ต่อเนื่อง. พบในพื้นที่กึ่งแห้งแล้งและขอบทะเลทราย เช่น บางส่วนของเม็กซิโกและตะวันตกเฉียงใต้ของอเมริกาเหนือ.",
       "region": "เม็กซิโกและอเมริกาเหนือตะวันตกเฉียงใต้",
-      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm"
+      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm",
+      "prior_design_resources": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        3,
+        3
+      ],
+      "forest_products": [
+        1,
+        1
+      ],
+      "yield_rule": "DOC Week 7 normal yield, before town halving. Base Week 2 potentials preserved."
     },
     {
       "key": "rainforest",
@@ -288,7 +378,7 @@
       "base": 7,
       "resources": [
         1,
-        1,
+        0,
         0,
         0,
         2,
@@ -298,7 +388,22 @@
       ],
       "description": "ป่าดิบชื้นมีเรือนยอดหลายระดับและพืชหลากหลายชนิดในสภาพอากาศอุ่นชื้น. พบในอเมริกากลางและลุ่มน้ำแอมะซอน แต่ไม่ได้เป็นพื้นที่น้ำขังทั้งหมด โดยการถางแล้วเป็น Swamp เป็นกติกาจำลองตามงานนี้.",
       "region": "อเมริกากลางและลุ่มน้ำแอมะซอน",
-      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm"
+      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm",
+      "prior_design_resources": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        5,
+        0,
+        0
+      ],
+      "forest_products": [
+        2,
+        5
+      ],
+      "yield_rule": "DOC Week 7 normal yield, before town halving. Base Week 2 potentials preserved."
     }
   ],
   "units": [
@@ -448,37 +553,79 @@
       "key": "caravel",
       "name": "Caravel",
       "detail": "เรือสำรวจขนาดเล็ก คล่องตัว ใบเรือสามเหลี่ยมเด่น",
-      "enum": 0
+      "enum": 0,
+      "stats": {
+        "movement": 4,
+        "strength": 2,
+        "cargo": 2,
+        "visual_range": 1,
+        "source": "Production manual DOC 20.7"
+      }
     },
     {
       "key": "merchantman",
       "name": "Merchantman",
       "detail": "เรือบรรทุกสินค้าท้องกว้าง สินค้าและระวางเด่น",
-      "enum": 1
+      "enum": 1,
+      "stats": {
+        "movement": 5,
+        "strength": 6,
+        "cargo": 4,
+        "visual_range": 1,
+        "source": "Production manual DOC 20.7"
+      }
     },
     {
       "key": "galleon",
       "name": "Galleon",
       "detail": "เรือใหญ่หลายเสา มีปราสาทท้ายและพื้นที่บรรทุกมาก",
-      "enum": 2
+      "enum": 2,
+      "stats": {
+        "movement": 6,
+        "strength": 10,
+        "cargo": 6,
+        "visual_range": 1,
+        "source": "Production manual DOC 20.7"
+      }
     },
     {
       "key": "privateer",
       "name": "Privateer",
       "detail": "เรือเร็วติดอาวุธขนาดย่อมเพื่อบทบาทโจมตีทางทะเล",
-      "enum": 3
+      "enum": 3,
+      "stats": {
+        "movement": 8,
+        "strength": 8,
+        "cargo": 2,
+        "visual_range": 1,
+        "source": "Production manual DOC 20.7"
+      }
     },
     {
       "key": "frigate",
       "name": "Frigate",
       "detail": "เรือรบเพรียว ปืนใหญ่เรียงเป็นแนวด้านข้าง",
-      "enum": 4
+      "enum": 4,
+      "stats": {
+        "movement": 6,
+        "strength": 16,
+        "cargo": 4,
+        "visual_range": 1,
+        "source": "Production manual DOC 20.7"
+      }
     },
     {
       "key": "man_of_war",
       "name": "Man Of War",
       "detail": "เรือรบขนาดใหญ่หลายชั้นปืน บทบาทกำลังรบหนัก",
-      "enum": 5
+      "enum": 5,
+      "stats": {
+        "movement": 6,
+        "strength": 24,
+        "cargo": 6,
+        "visual_range": 1,
+        "source": "Production manual DOC 20.7"
+      }
     }
   ],
   "native": [
@@ -718,5 +865,39 @@
     "ภาพผู้นำเป็นภาพตีความ CG สำหรับเกม ผู้นำสมมติระบุชัดเจนทุกหน้า",
     "Broadleaf→Prairie, Boreal→Tundra และ Rainforest→Swamp เป็นการแปลง Terrain ตามโจทย์ ไม่ใช่ข้อสรุปทางนิเวศวิทยา",
     "ฐานเกมใช้ชื่อ enum และ ScriptableObject เดิมเพื่อคงความเข้ากันได้"
-  ]
+  ],
+  "week7": {
+    "product_names": [
+      "Food",
+      "Sugar",
+      "Tobacco",
+      "Cotton",
+      "Furs",
+      "Lumber",
+      "Iron Ores",
+      "Silver",
+      "Horses",
+      "Rum",
+      "Cigars",
+      "Clothes",
+      "Coats",
+      "Trade Goods",
+      "Tools",
+      "Musket"
+    ],
+    "food_icons": [
+      "corn",
+      "fish"
+    ],
+    "town_sections": [
+      "Name",
+      "Buildings",
+      "Terrain",
+      "Idle workers",
+      "Port",
+      "Special production",
+      "Warehouse"
+    ],
+    "warehouse_transfer_week": 9
+  }
 }

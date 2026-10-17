@@ -3,8 +3,9 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
-public class UnitDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class UnitDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler
 {
+    private bool dragging;
     [SerializeField]
     private Image unitImage;
 
@@ -39,6 +40,8 @@ public class UnitDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (UIManager.instance.IsProfessionOpen) return;
+        dragging = true;
         iconParent = transform.parent;
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
@@ -47,11 +50,13 @@ public class UnitDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnDrag(PointerEventData eventData)
     {
-        transform.position = Mouse.current.position.value;
+        if (dragging) transform.position = eventData.position;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (!dragging) return;
+        dragging = false;
         transform.SetParent(iconParent);
         unitImage.raycastTarget = true;
     }
@@ -60,7 +65,11 @@ public class UnitDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         if (terrainSlot != null)
         {
-            terrainSlot.Hex.Labor = null;
+            if (terrainSlot.Hex != null && terrainSlot.Hex.Labor == landUnit)
+            {
+                terrainSlot.Hex.Labor = null;
+                terrainSlot.Hex.YieldID = -1;
+            }
             terrainSlot = null;
         }
     }
@@ -68,5 +77,11 @@ public class UnitDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public void WorkAtNewTerrainSlot(TerrainSlot terrainSlot)
     {
         this.terrainSlot = terrainSlot;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (!dragging && terrainSlot != null && eventData.button == PointerEventData.InputButton.Left &&
+            !UIManager.instance.IsProfessionOpen) UIManager.instance.SelectProfession(terrainSlot);
     }
 }

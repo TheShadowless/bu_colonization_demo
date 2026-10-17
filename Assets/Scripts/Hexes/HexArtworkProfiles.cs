@@ -13,10 +13,12 @@ public sealed class HexArtworkProfiles : ScriptableObject
     }
 
     public Entry[] entries = Array.Empty<Entry>();
+    public Shader uiShader;
     private static Dictionary<Sprite, Material> materials;
+    private static Dictionary<Sprite, Material> uiMaterials;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
-    private static void ResetCache() => materials = null;
+    private static void ResetCache() { materials = null; uiMaterials = null; }
 
     public static void Apply(SpriteRenderer renderer)
     {
@@ -39,6 +41,36 @@ public sealed class HexArtworkProfiles : ScriptableObject
 
         if (materials.TryGetValue(renderer.sprite, out var material))
             renderer.sharedMaterial = material;
+    }
+
+    public static Material GetUIMaterial(Sprite sprite)
+    {
+        if (sprite == null) return null;
+        if (materials == null)
+        {
+            // Use the same profile cache initialization without creating scene objects.
+            materials = new Dictionary<Sprite, Material>();
+            var profiles = Resources.Load<HexArtworkProfiles>("HexArtworkProfiles");
+            if (profiles != null)
+                foreach (var entry in profiles.entries)
+                    if (entry.sprite != null && entry.material != null)
+                    {
+                        var instance = new Material(entry.material);
+                        SetUVTransform(entry.sprite, instance);
+                        materials[entry.sprite] = instance;
+                    }
+        }
+        if (!materials.TryGetValue(sprite, out var world)) return null;
+        if (uiMaterials == null) uiMaterials = new Dictionary<Sprite, Material>();
+        if (!uiMaterials.TryGetValue(sprite, out var material))
+        {
+            var profiles = Resources.Load<HexArtworkProfiles>("HexArtworkProfiles");
+            var shader = profiles != null ? profiles.uiShader : null;
+            if (shader == null) return null;
+            material = new Material(world) { shader = shader, name = sprite.name + " (UI Fit)" };
+            uiMaterials[sprite] = material;
+        }
+        return material;
     }
 
     private static void SetUVTransform(Sprite sprite, Material material)

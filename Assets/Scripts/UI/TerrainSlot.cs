@@ -6,104 +6,107 @@ using System.Collections.Generic;
 
 public class TerrainSlot : MonoBehaviour, IDropHandler
 {
-    [SerializeField]
-    private Hex hex;
-    public Hex Hex { get { return hex; } }
+    [SerializeField] private Hex hex;
+    public Hex Hex => hex;
+    [SerializeField] private Image terrainImage;
+    [SerializeField] private Image forestImage;
+    [SerializeField] private Image townImage;
+    [SerializeField] private Transform yieldParent;
+    [SerializeField] private Transform laborParent;
+    public Transform LaborParent => laborParent;
+    [SerializeField] private int[] normalYield = new int[8];
+    public int[] NormalYield { get => normalYield; set => normalYield = value; }
+    [SerializeField] private int[] actualYield = new int[8];
+    public int[] ActualYield { get => actualYield; set => actualYield = value; }
+    [SerializeField] private bool centerHex;
+    public bool IsCenter => centerHex;
+    [SerializeField] private TMP_Text yieldText;
+    [SerializeField] private List<GameObject> yieldIconList = new List<GameObject>();
+    public List<GameObject> YieldIconList { get => yieldIconList; set => yieldIconList = value; }
+    [SerializeField] private GameManager gameMgr;
+    [SerializeField] private UIManager uiMgr;
 
-    [SerializeField]
-    private Image terrainImage;
-
-    [SerializeField]
-    private Image forestImage;
-
-    [SerializeField]
-    private Image townImage;
-
-    [SerializeField]
-    private Transform yieldParent;
-
-    [SerializeField]
-    private Transform laborParent;
-    public Transform LaborParent { get { return laborParent; } }
-
-    //0-food, 1-sugar, 2-tobacco 3-cotton 4-fur 5-lumber 6-ore 7-silver
-    [SerializeField]
-    private int[] normalYield = new int[8];
-    public int[] NormalYield { get { return normalYield; } set { normalYield = value; } }
-
-    [SerializeField]
-    private int[] actualYield = new int[8]; //Actual Yield labor is currently working
-    public int[] ActualYield { get { return actualYield; } set { actualYield = value; } }
-
-    [SerializeField]
-    private bool centerHex;
-
-    [SerializeField]
-    private TMP_Text yieldText;
-
-    [SerializeField]
-    private List<GameObject> yieldIconList = new List<GameObject>();
-    public List<GameObject> YieldIconList { get { return yieldIconList; } set { yieldIconList = value; } }
-
-    [SerializeField]
-    private GameManager gameMgr;
-    [SerializeField]
-    private UIManager uiMgr;
-
-    void Awake()
+    public void HexSlotInit(Hex hexData)
     {
         gameMgr = GameManager.instance;
         uiMgr = UIManager.instance;
+        hex = hexData;
+        RemoveYieldIcons();
+        System.Array.Clear(normalYield, 0, normalYield.Length);
+        System.Array.Clear(actualYield, 0, actualYield.Length);
+        SetImage(terrainImage, hex != null ? hex.TerrainSprite.sprite : null, true);
+        SetImage(forestImage, hex != null && hex.HasForest ? hex.ForestSprite.sprite : null, true);
+        SetImage(townImage, hex != null && hex.HasTown && hex.Town != null ? hex.Town.TownSprite.sprite : null, false);
+        if (hex != null)
+            for (int i = 0; i < normalYield.Length; i++) normalYield[i] = YieldRules.NormalYield(hex, i);
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private static void SetImage(Image image, Sprite sprite, bool fit)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (image == null) return;
+        image.sprite = sprite;
+        image.material = fit && sprite != null ? HexArtworkProfiles.GetUIMaterial(sprite) : null;
+        image.gameObject.SetActive(sprite != null);
     }
 
     public void OnDrop(PointerEventData eventData)
     {
-        if (centerHex || hex.Labor != null)
-            return;
-
-        GameObject unitObj = eventData.pointerDrag;
-        UnitDrag unitDrag = unitObj.GetComponent<UnitDrag>();
-
-        unitDrag.QuitOldTerrainSlot(); //old slot remove this labor
-        unitDrag.WorkAtNewTerrainSlot(this); //this slot is remembered in this labor
-
-        unitDrag.IconParent = laborParent;
-        unitObj.transform.position = laborParent.position;
-
-        unitDrag.LandUnit.UnitStatus = UnitStatus.WorkInField;
-        hex.Labor = unitDrag.LandUnit;
+        if (centerHex || hex == null || uiMgr == null || uiMgr.IsProfessionOpen) return;
+        var drag = eventData.pointerDrag != null ? eventData.pointerDrag.GetComponent<UnitDrag>() : null;
+        if (drag == null || drag.LandUnit == null || drag.LandUnit.CurHex != gameMgr.CurTown.CurHex) return;
+        if (hex.Labor != null && hex.Labor != drag.LandUnit) return;
+        if (hex.Labor != drag.LandUnit)
+        {
+            drag.QuitOldTerrainSlot();
+            hex.Labor = drag.LandUnit;
+            hex.YieldID = -1;
+        }
+        drag.WorkAtNewTerrainSlot(this);
+        drag.IconParent = laborParent;
+        drag.transform.position = laborParent.position;
+        drag.LandUnit.UnitStatus = UnitStatus.WorkInField;
+        uiMgr.RefreshProduction();
+        uiMgr.SelectProfession(this);
     }
 
-    public void HexSlotInit(Hex hexData)
+    public void SelectYield(int id)
     {
-        if (hexData != null)
+        if (hex == null || hex.Labor == null || id < 0 || id >= 8 || normalYield[id] <= 0) return;
+        hex.YieldID = id;
+        uiMgr.RefreshProduction();
+    }
+
+    public void RemoveYieldIcons()
+    {
+        foreach (var icon in yieldIconList) if (icon != null) Destroy(icon);
+        yieldIconList.Clear();
+        if (yieldText != null) yieldText.gameObject.SetActive(false);
+    }
+
+    public void RefreshYieldDisplay()
+    {
+        RemoveYieldIcons();
+        System.Array.Clear(actualYield, 0, actualYield.Length);
+        if (hex == null) return;
+        for (int i = 0; i < normalYield.Length; i++) normalYield[i] = YieldRules.NormalYield(hex, i);
+        bool assigned = centerHex || (hex.Labor != null && hex.Labor.CurHex == gameMgr.CurTown.CurHex &&
+            hex.Labor.UnitStatus == UnitStatus.WorkInField);
+        int id = centerHex ? 0 : hex.YieldID;
+        if (!assigned || id < 0 || id >= 8) return;
+        actualYield[id] = normalYield[id];
+        if (yieldText != null)
         {
-            hex = hexData;
-            terrainImage.sprite = hex.TerrainSprite.sprite;
-
-            if (hex.HasForest)
-            {
-                forestImage.sprite = hex.ForestSprite.sprite;
-                forestImage.gameObject.SetActive(true);
-            }
-
-            if (hex.HasTown)
-            {
-                townImage.sprite = hex.Town.TownSprite.sprite;
-                townImage.gameObject.SetActive(true);
-            }
+            yieldText.text = actualYield[id] + " " + gameMgr.ProductData[id].productName;
+            yieldText.gameObject.SetActive(true);
         }
+        for (int i = 0; i < actualYield[id]; i++)
+        {
+            var obj = Instantiate(uiMgr.YieldIconPrefab, yieldParent);
+            var image = obj.GetComponent<Image>();
+            image.sprite = gameMgr.ProductData[id].IconFor(hex);
+            image.preserveAspect = true;
+            yieldIconList.Add(obj);
+        }
+        uiMgr.SetupParentSpacing(actualYield[id], yieldParent, 64, 210);
     }
 }

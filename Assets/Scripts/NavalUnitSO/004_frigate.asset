@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c4b5fad94210d84c97eed4a7492f7fc, type: 3}
   m_Name: 004_frigate
   m_EditorClassIdentifier: Assembly-CSharp::NavalUnitData
-  unitName: 
+  unitName: Frigate
   navalUnitType: 4
-  strength: 6
-  movePointMax: 4
+  strength: 16
+  movePointMax: 6
   visualRange: 1
   shipIcon: {fileID: 21300000, guid: 8b9151025c7869b4f9f047dfbbdffe28, type: 3}
   armed: 1
-  cargoHoldNum: 2
+  cargoHoldNum: 4

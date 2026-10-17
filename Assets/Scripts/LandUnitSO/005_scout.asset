@@ -16,8 +16,8 @@ MonoBehaviour:
   landUnitType: 5
   strength: 1
   movePointMax: 4
-  visualRange: 1
+  visualRange: 2
   unitIcon: {fileID: 21300000, guid: 039a37f9e60b54049bb1e8991d7fe6e1, type: 3}
   armed: 0
   hasMusket: 0
-  hasHorse: 0
+  hasHorse: 1

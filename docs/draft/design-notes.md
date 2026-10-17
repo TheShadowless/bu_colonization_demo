@@ -1,4 +1,4 @@
-# Week 3–6 design catalogue
+# Design catalogue through DOC Week 7
 
 Completed against the supplied assignment screenshots and the V.2 production manual. Week 1–2 artwork and resource values from the student’s Canva were retained.
 
@@ -12,7 +12,7 @@ Resource scale: 0–5. Array order: Food, Sugar, Tobacco, Cotton, Fur, Lumber, I
 
 Region: อเมริกาเหนือเขตอบอุ่นและแนวภูเขา
 Clears to: Grassland
-Resources: [2, 0, 0, 0, 3, 5, 1, 0]
+Resources: [2, 0, 0, 0, 3, 5, 0, 0]
 Reference: https://research.fs.usda.gov/silvics/
 
 ### Broadleaf Forest
@@ -21,7 +21,7 @@ Reference: https://research.fs.usda.gov/silvics/
 
 Region: อเมริกาเหนือตะวันออกและเขตอบอุ่นชื้น
 Clears to: Prairie
-Resources: [3, 0, 0, 0, 3, 4, 1, 0]
+Resources: [3, 0, 0, 0, 3, 4, 0, 0]
 Reference: https://research.fs.usda.gov/silvics/
 
 ### Savanna Woodland
@@ -30,7 +30,7 @@ Reference: https://research.fs.usda.gov/silvics/
 
 Region: อเมริกาใต้เขตร้อนและพื้นที่ฤดูแล้งชัดเจน
 Clears to: Savannah
-Resources: [1, 1, 0, 0, 1, 3, 2, 0]
+Resources: [0, 0, 0, 0, 1, 3, 0, 0]
 Reference: https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm
 
 ### Mixed Forest
@@ -39,7 +39,7 @@ Reference: https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm
 
 Region: รอบเกรตเลกส์และตะวันออกเฉียงเหนือของอเมริกาเหนือ
 Clears to: Plain
-Resources: [2, 0, 0, 1, 3, 4, 1, 0]
+Resources: [2, 0, 0, 0, 3, 4, 0, 0]
 Reference: https://research.fs.usda.gov/silvics/
 
 ### Boreal Forest (Taiga)
@@ -48,7 +48,7 @@ Reference: https://research.fs.usda.gov/silvics/
 
 Region: แคนาดา อะแลสกา และยูเรเชียตอนเหนือ
 Clears to: Tundra
-Resources: [0, 0, 0, 0, 4, 3, 2, 0]
+Resources: [0, 0, 0, 0, 4, 3, 0, 0]
 Reference: https://research.fs.usda.gov/treesearch/64446
 
 ### Scrub Forest
@@ -57,7 +57,7 @@ Reference: https://research.fs.usda.gov/treesearch/64446
 
 Region: เม็กซิโกและอเมริกาเหนือตะวันตกเฉียงใต้
 Clears to: Desert
-Resources: [0, 0, 0, 0, 1, 1, 3, 3]
+Resources: [0, 0, 0, 0, 1, 1, 1, 1]
 Reference: https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm
 
 ### Tropical Rainforest
@@ -66,7 +66,7 @@ Reference: https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm
 
 Region: อเมริกากลางและลุ่มน้ำแอมะซอน
 Clears to: Swamp
-Resources: [1, 1, 0, 0, 2, 5, 0, 0]
+Resources: [1, 0, 0, 0, 2, 5, 0, 0]
 Reference: https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm
 
 ## Week 4 land units
@@ -198,3 +198,7 @@ Forest-specific resource tables and Native trade/relationship preferences are de
 Unit enum values 0–11 are preserved. Eight missing profession labels were appended so all 20 icons can be stored without mislabelled ScriptableObjects. Existing unit/ship statistics were preserved. New catalogue entries use clearly provisional basic game defaults.
 
 All artwork added in this change was generated with the built-in image generation tool, except the retained student terrain images. PNG resizing/padding creates the required assignment sizes and the original prefab canvas dimensions. Source images were preserved.
+
+## DOC Week 7 integration
+
+Forest arrays above are normal game yields before town halving, derived from the preserved Week 2 base values. Fur/Lumber potentials are authored separately. The old design arrays remain in catalogue prior_design_resources for traceability. The new Town Panel, product art, exact ship data and production system are described in [Week 7 delivery](../week7/submission.md). Native preferences and scenario rivals remain design-only.

@@ -103,6 +103,8 @@ public class Unit : MonoBehaviour, IPointerClickHandler
             MoveToHex();
         }
 
+        if (UIManager.instance != null && UIManager.instance.IsTownOpen) return;
+
         if (Keyboard.current.enterKey.wasPressedThisFrame)
         {
             if (this == gameMgr.CurUnit && curHex.HasTown)
@@ -145,6 +147,8 @@ public class Unit : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (UIManager.instance != null && UIManager.instance.IsTownOpen) return;
+        if (gameMgr.CurUnit == null || !gameMgr.PlayerTurn) return;
         //Debug.Log("Mouse Click");
         if (eventData.button == PointerEventData.InputButton.Left)
         {
