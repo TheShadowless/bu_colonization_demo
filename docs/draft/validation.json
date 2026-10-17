@@ -11,8 +11,8 @@
   },
   "gameplay": {
     "result": "passed",
-    "frame": 388,
-    "seconds": 64.66666666666667,
+    "frame": 418,
+    "seconds": 69.66666666666667,
     "phase": 14,
     "cleared": true,
     "built": true,
@@ -20,63 +20,70 @@
     "returned": true,
     "events": [
       {
-        "second": 0.00011020000056305435,
+        "second": 0.00011209999865968712,
         "frame": 0,
         "label": "Live Unity gameplay: map revealed and student artwork installed"
       },
       {
-        "second": 4.010858100000405,
+        "second": 4.01269179999872,
         "frame": 22,
         "label": "Sailing toward a forested coast"
       },
       {
-        "second": 16.140404300000228,
-        "frame": 92,
+        "second": 18.44150230000014,
+        "frame": 105,
         "label": "Coast reached"
       },
       {
-        "second": 19.141828200001328,
-        "frame": 109,
+        "second": 21.443803000000116,
+        "frame": 122,
         "label": "Pioneer disembarks"
       },
       {
-        "second": 22.14141860000018,
-        "frame": 126,
+        "second": 24.525569699999323,
+        "frame": 140,
         "label": "Clear forest using pioneer tools"
       },
       {
-        "second": 32.36282519999986,
-        "frame": 185,
+        "second": 35.66209449999951,
+        "frame": 204,
         "label": "Forest cleared; build settlement"
       },
       {
-        "second": 42.67037460000029,
-        "frame": 244,
+        "second": 47.909643800001504,
+        "frame": 274,
         "label": "New settlement completed"
       },
       {
-        "second": 46.689474800001335,
-        "frame": 267,
+        "second": 51.932925400000386,
+        "frame": 297,
         "label": "Open town and inspect seven terrain slots"
       },
       {
-        "second": 50.69684360000065,
-        "frame": 290,
+        "second": 55.941680600000836,
+        "frame": 320,
         "label": "Drag idle worker to surrounding terrain"
       },
       {
-        "second": 56.71139320000111,
-        "frame": 324,
+        "second": 62.016704699999536,
+        "frame": 355,
         "label": "Return worker to outside/idle area"
       },
       {
-        "second": 62.84573960000125,
-        "frame": 359,
+        "second": 68.07798000000184,
+        "frame": 390,
         "label": "Town and cleared terrain verified"
       }
     ]
   },
   "png_count": 73,
   "canva_design": "DAHYN8PV1FM",
-  "canva_pages": 27
+  "canva_pages": 27,
+  "hexArtworkFit": {
+    "beforeBackgroundPixels": 99009,
+    "afterBackgroundPixels": 0,
+    "all18BackgroundPixels": 0,
+    "profiles": 18,
+    "result": "passed"
+  }
 }

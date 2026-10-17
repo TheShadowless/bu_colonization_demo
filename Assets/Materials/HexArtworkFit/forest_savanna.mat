@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: forest_savanna
+  m_Shader: {fileID: 4800000, guid: da22ec0a3cf19d9419e460aadbea2cd6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ArtworkTex:
+        m_Texture: {fileID: 2800000, guid: 46112af047371db4fb564dfe6c385086, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RowSpans:
+        m_Texture: {fileID: 2800000, guid: 3cef82a928d081145892b11f6bede187, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _Canvas: {r: 256, g: 384, b: 100, a: 256}
+    - _Pivot: {r: 128, g: 128, b: 0, a: 0}
+    - _SpriteUVRect: {r: 0, g: 0, b: 1, a: 1}
+    - _UVToCanvasX: {r: 1, g: 0, b: 0, a: 0}
+    - _UVToCanvasY: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

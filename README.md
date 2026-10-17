@@ -33,9 +33,11 @@ The student artwork is connected through the original Texture2D/Sprite and Scrip
 
 [Week 3–6 Canva presentation](https://www.canva.com/d/HSXQdkDSmvqu63D) contains 27 pages. [Week 1–2 original work](https://www.canva.com/d/YCCt4hQw3R_Nm4H) is preserved separately.
 
-[Download the gameplay video, assignment PNGs and presentation](https://github.com/TheShadowless/bu_colonization_demo/releases/tag/draft-2026-10-17).
+[Download the gameplay video, assignment PNGs and presentation](https://github.com/TheShadowless/bu_colonization_demo/releases/tag/draft-2026-10-17-hexfit).
 
 The live Unity demonstration covers sailing, disembarking, forest clearing, founding a town, opening the town panel, dragging a worker into a surrounding terrain slot, and returning the worker to the idle area. Both fog renderers are disabled in the Hex prefab for this Draft demonstration.
+
+Terrain and forest illustrations now fit the Grid without the visible background gaps. See the [updated map screenshot](docs/draft/screenshots/hex-map-after.png) and [artwork fitting notes](docs/draft/hex-artwork-fit.md).
 
 ### Controls
 

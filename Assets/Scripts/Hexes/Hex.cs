@@ -131,6 +131,7 @@ public class Hex : MonoBehaviour, IPointerClickHandler
     {
         int i = Random.Range(0, sprites.Length);
         terrainSprite.sprite = sprites[i];
+        HexArtworkProfiles.Apply(terrainSprite);
     }
 
     private void RandomForestSprite(Sprite[] sprites)
@@ -138,6 +139,7 @@ public class Hex : MonoBehaviour, IPointerClickHandler
         int i = Random.Range(0, sprites.Length);
         forestSprite.gameObject.SetActive(true);
         forestSprite.sprite = sprites[i];
+        HexArtworkProfiles.Apply(forestSprite);
     }
 
     public void HexInit(int x, int y, Vector2 pos, GameManager gameMgr, int i)
