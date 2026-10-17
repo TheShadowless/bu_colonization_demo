@@ -1,0 +1,82 @@
+{
+  "unity": {
+    "passed": true,
+    "terrains": 11,
+    "forests": 7,
+    "land": 20,
+    "ships": 6,
+    "factions": 13,
+    "nativeTowns": 8,
+    "failures": []
+  },
+  "gameplay": {
+    "result": "passed",
+    "frame": 388,
+    "seconds": 64.66666666666667,
+    "phase": 14,
+    "cleared": true,
+    "built": true,
+    "assigned": true,
+    "returned": true,
+    "events": [
+      {
+        "second": 0.00011020000056305435,
+        "frame": 0,
+        "label": "Live Unity gameplay: map revealed and student artwork installed"
+      },
+      {
+        "second": 4.010858100000405,
+        "frame": 22,
+        "label": "Sailing toward a forested coast"
+      },
+      {
+        "second": 16.140404300000228,
+        "frame": 92,
+        "label": "Coast reached"
+      },
+      {
+        "second": 19.141828200001328,
+        "frame": 109,
+        "label": "Pioneer disembarks"
+      },
+      {
+        "second": 22.14141860000018,
+        "frame": 126,
+        "label": "Clear forest using pioneer tools"
+      },
+      {
+        "second": 32.36282519999986,
+        "frame": 185,
+        "label": "Forest cleared; build settlement"
+      },
+      {
+        "second": 42.67037460000029,
+        "frame": 244,
+        "label": "New settlement completed"
+      },
+      {
+        "second": 46.689474800001335,
+        "frame": 267,
+        "label": "Open town and inspect seven terrain slots"
+      },
+      {
+        "second": 50.69684360000065,
+        "frame": 290,
+        "label": "Drag idle worker to surrounding terrain"
+      },
+      {
+        "second": 56.71139320000111,
+        "frame": 324,
+        "label": "Return worker to outside/idle area"
+      },
+      {
+        "second": 62.84573960000125,
+        "frame": 359,
+        "label": "Town and cleared terrain verified"
+      }
+    ]
+  },
+  "png_count": 73,
+  "canva_design": "DAHYN8PV1FM",
+  "canva_pages": 27
+}

@@ -14,7 +14,15 @@ public enum LandUnitType
     Lumberjacks,
     Carpenters,
     OreMiners,
-    Blacksmiths
+    Blacksmiths,
+    FurTrappers,
+    FurTraders,
+    CottonPlanters,
+    CottonWeavers,
+    Missionaries,
+    Statesmen,
+    Gunsmiths,
+    Criminals
 }
 
 public class LandUnit : Unit

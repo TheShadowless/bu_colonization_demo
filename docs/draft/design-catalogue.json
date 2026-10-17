@@ -1,0 +1,722 @@
+{
+  "base": [
+    {
+      "key": "ocean",
+      "name": "Ocean",
+      "local_index": 15,
+      "resources": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "grassland",
+      "name": "Grassland",
+      "local_index": 16,
+      "resources": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "key": "prairie",
+      "name": "Prairie",
+      "local_index": 17,
+      "resources": [
+        5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "key": "savanna",
+      "name": "Savannah",
+      "local_index": 26,
+      "resources": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "key": "plain",
+      "name": "Plain",
+      "local_index": 19,
+      "resources": [
+        4,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "key": "tundra",
+      "name": "Tundra",
+      "local_index": 20,
+      "resources": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "key": "desert",
+      "name": "Desert",
+      "local_index": 21,
+      "resources": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "key": "swamp",
+      "name": "Swamp",
+      "local_index": 22,
+      "resources": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "key": "arctic",
+      "name": "Arctic",
+      "local_index": 24,
+      "resources": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "key": "hills",
+      "name": "Hills",
+      "local_index": 8,
+      "resources": [
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "key": "mountains",
+      "name": "Mountains",
+      "local_index": 25,
+      "resources": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        5
+      ]
+    }
+  ],
+  "forests": [
+    {
+      "key": "conifer",
+      "name": "Conifer Forest",
+      "cleared": "Grassland",
+      "base": 1,
+      "resources": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        5,
+        1,
+        0
+      ],
+      "description": "ป่าสนมีไม้ใบเข็ม เช่น สนและสปรูซ เป็นองค์ประกอบเด่น และมีโครงสร้างเรือนยอดต่างจากป่าใบกว้าง. พบได้ในเขตอบอุ่นและบริเวณภูเขาของอเมริกาเหนือ โดยชนิดของไม้ขึ้นอยู่กับภูมิอากาศและระดับความสูง.",
+      "region": "อเมริกาเหนือเขตอบอุ่นและแนวภูเขา",
+      "source": "https://research.fs.usda.gov/silvics/"
+    },
+    {
+      "key": "broadleaf",
+      "name": "Broadleaf Forest",
+      "cleared": "Prairie",
+      "base": 2,
+      "resources": [
+        3,
+        0,
+        0,
+        0,
+        3,
+        4,
+        1,
+        0
+      ],
+      "description": "ป่าใบกว้างประกอบด้วยไม้ที่มีแผ่นใบกว้าง และในเขตอบอุ่นหลายชนิดผลัดใบตามฤดูกาล. พบในภาคตะวันออกของอเมริกาเหนือและเขตอบอุ่นชื้น โดยไม่ได้หมายความว่าทุ่ง Prairie ทุกแห่งเคยเป็นป่า.",
+      "region": "อเมริกาเหนือตะวันออกและเขตอบอุ่นชื้น",
+      "source": "https://research.fs.usda.gov/silvics/"
+    },
+    {
+      "key": "savanna",
+      "name": "Savanna Woodland",
+      "cleared": "Savannah",
+      "base": 3,
+      "resources": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        2,
+        0
+      ],
+      "description": "พื้นที่ป่าโปร่งชนิดนี้มีต้นไม้กระจายอยู่เหนือชั้นหญ้า และมีช่องเปิดมากกว่าป่าทึบ. พบในเขตร้อนที่มีฤดูกาลชัดเจน รวมถึงบางส่วนของอเมริกาใต้ โดยความหนาแน่นของไม้ขึ้นกับน้ำและไฟในระบบนิเวศ.",
+      "region": "อเมริกาใต้เขตร้อนและพื้นที่ฤดูแล้งชัดเจน",
+      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm"
+    },
+    {
+      "key": "mixed",
+      "name": "Mixed Forest",
+      "cleared": "Plain",
+      "base": 4,
+      "resources": [
+        2,
+        0,
+        0,
+        1,
+        3,
+        4,
+        1,
+        0
+      ],
+      "description": "ป่าผสมมีทั้งไม้ใบเข็มและไม้ใบกว้างอยู่ร่วมกัน ทำให้เรือนยอดและการเปลี่ยนแปลงตามฤดูกาลมีความหลากหลาย. พบในบริเวณเปลี่ยนผ่านของป่าเขตอบอุ่นและเขตหนาว เช่น รอบเกรตเลกส์และภาคตะวันออกเฉียงเหนือของอเมริกาเหนือ.",
+      "region": "รอบเกรตเลกส์และตะวันออกเฉียงเหนือของอเมริกาเหนือ",
+      "source": "https://research.fs.usda.gov/silvics/"
+    },
+    {
+      "key": "boreal",
+      "name": "Boreal Forest (Taiga)",
+      "cleared": "Tundra",
+      "base": 5,
+      "resources": [
+        0,
+        0,
+        0,
+        0,
+        4,
+        3,
+        2,
+        0
+      ],
+      "description": "ไทกาเป็นป่าของละติจูดสูงที่มีไม้ใบเข็มทนหนาวเป็นส่วนสำคัญ และมีฤดูเติบโตค่อนข้างสั้น. พบกว้างขวางในแคนาดา อะแลสกา และยูเรเชีย โดยขอบด้านเหนือเป็นแนวเปลี่ยนผ่านเข้าสู่ Tundra.",
+      "region": "แคนาดา อะแลสกา และยูเรเชียตอนเหนือ",
+      "source": "https://research.fs.usda.gov/treesearch/64446"
+    },
+    {
+      "key": "scrub",
+      "name": "Scrub Forest",
+      "cleared": "Desert",
+      "base": 6,
+      "resources": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        3,
+        3
+      ],
+      "description": "ป่าละเมาะแห้งมีไม้พุ่มและไม้เตี้ยที่ทนต่อการขาดน้ำ โดยมักมีเรือนยอดไม่ต่อเนื่อง. พบในพื้นที่กึ่งแห้งแล้งและขอบทะเลทราย เช่น บางส่วนของเม็กซิโกและตะวันตกเฉียงใต้ของอเมริกาเหนือ.",
+      "region": "เม็กซิโกและอเมริกาเหนือตะวันตกเฉียงใต้",
+      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm"
+    },
+    {
+      "key": "rainforest",
+      "name": "Tropical Rainforest",
+      "cleared": "Swamp",
+      "base": 7,
+      "resources": [
+        1,
+        1,
+        0,
+        0,
+        2,
+        5,
+        0,
+        0
+      ],
+      "description": "ป่าดิบชื้นมีเรือนยอดหลายระดับและพืชหลากหลายชนิดในสภาพอากาศอุ่นชื้น. พบในอเมริกากลางและลุ่มน้ำแอมะซอน แต่ไม่ได้เป็นพื้นที่น้ำขังทั้งหมด โดยการถางแล้วเป็น Swamp เป็นกติกาจำลองตามงานนี้.",
+      "region": "อเมริกากลางและลุ่มน้ำแอมะซอน",
+      "source": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm"
+    }
+  ],
+  "units": [
+    {
+      "key": "free_colonist",
+      "name": "Free Colonist",
+      "thai": "ชาวอาณานิคม",
+      "detail": "ผ้าม้วนและกระเป๋าเดินทาง",
+      "enum": 0
+    },
+    {
+      "key": "soldier",
+      "name": "Soldier",
+      "thai": "ทหาร",
+      "detail": "ปืน musket และสายสะพาย",
+      "enum": 1
+    },
+    {
+      "key": "hardy_pioneer",
+      "name": "Hardy Pioneers",
+      "thai": "นักบุกเบิก",
+      "detail": "ขวานสำหรับถางพื้นที่",
+      "enum": 2
+    },
+    {
+      "key": "plain_native",
+      "name": "Plain Indians",
+      "thai": "ยูนิต Native เขตทุ่งหญ้า",
+      "detail": "ธนูและชุดหนังสัตว์",
+      "enum": 3
+    },
+    {
+      "key": "tropical_native",
+      "name": "Tropical Indians",
+      "thai": "ยูนิต Native เขตป่าเขตร้อน",
+      "detail": "ธนูและผ้าทอเขตร้อน",
+      "enum": 4
+    },
+    {
+      "key": "scout",
+      "name": "Scouts",
+      "thai": "พรานขี่ม้า",
+      "detail": "ม้าและกล้องส่องทางไกล",
+      "enum": 5
+    },
+    {
+      "key": "farmer",
+      "name": "Farmer",
+      "thai": "ชาวนา",
+      "detail": "จอบและข้าวโพด",
+      "enum": 6
+    },
+    {
+      "key": "fisherman",
+      "name": "Fisherman",
+      "thai": "ชาวประมง",
+      "detail": "แหและปลา",
+      "enum": 7
+    },
+    {
+      "key": "lumberjack",
+      "name": "Lumberjack",
+      "thai": "คนตัดไม้",
+      "detail": "ขวานและท่อนไม้",
+      "enum": 8
+    },
+    {
+      "key": "carpenter",
+      "name": "Carpenter",
+      "thai": "ช่างไม้",
+      "detail": "ค้อนช่างไม้และแผ่นไม้",
+      "enum": 9
+    },
+    {
+      "key": "ore_miner",
+      "name": "Ore Miner",
+      "thai": "ชาวเหมืองแร่",
+      "detail": "พลั่วและตะกร้าแร่เหล็ก",
+      "enum": 10
+    },
+    {
+      "key": "blacksmith",
+      "name": "Blacksmith",
+      "thai": "ช่างตีเหล็ก",
+      "detail": "ค้อนเหล็กและคีม",
+      "enum": 11
+    },
+    {
+      "key": "fur_trapper",
+      "name": "Fur Trapper",
+      "thai": "พรานดักสัตว์",
+      "detail": "หนังสัตว์และกับดัก",
+      "enum": 12
+    },
+    {
+      "key": "fur_trader",
+      "name": "Fur Trader",
+      "thai": "พ่อค้าขนสัตว์",
+      "detail": "มัดขนสัตว์และสมุดบัญชี",
+      "enum": 13
+    },
+    {
+      "key": "cotton_planter",
+      "name": "Cotton Planter",
+      "thai": "คนปลูกฝ้าย",
+      "detail": "ตะกร้าฝ้ายดิบ",
+      "enum": 14
+    },
+    {
+      "key": "cotton_weaver",
+      "name": "Cotton Weaver",
+      "thai": "ช่างทอผ้า",
+      "detail": "ผ้าฝ้ายและกระสวย",
+      "enum": 15
+    },
+    {
+      "key": "missionary",
+      "name": "Missionary",
+      "thai": "บาทหลวง",
+      "detail": "หนังสือและกางเขนไม้",
+      "enum": 16
+    },
+    {
+      "key": "statesman",
+      "name": "Statesman",
+      "thai": "รัฐบุรุษ",
+      "detail": "เอกสารและปากกาขนนก",
+      "enum": 17
+    },
+    {
+      "key": "gunsmith",
+      "name": "Gunsmith",
+      "thai": "ช่างทำปืน",
+      "detail": "พานท้ายปืนและตะไบ",
+      "enum": 18
+    },
+    {
+      "key": "criminal",
+      "name": "Criminal",
+      "thai": "นักโทษ",
+      "detail": "เสื้อผ้าธรรมดาและโซ่ตรวน",
+      "enum": 19
+    }
+  ],
+  "ships": [
+    {
+      "key": "caravel",
+      "name": "Caravel",
+      "detail": "เรือสำรวจขนาดเล็ก คล่องตัว ใบเรือสามเหลี่ยมเด่น",
+      "enum": 0
+    },
+    {
+      "key": "merchantman",
+      "name": "Merchantman",
+      "detail": "เรือบรรทุกสินค้าท้องกว้าง สินค้าและระวางเด่น",
+      "enum": 1
+    },
+    {
+      "key": "galleon",
+      "name": "Galleon",
+      "detail": "เรือใหญ่หลายเสา มีปราสาทท้ายและพื้นที่บรรทุกมาก",
+      "enum": 2
+    },
+    {
+      "key": "privateer",
+      "name": "Privateer",
+      "detail": "เรือเร็วติดอาวุธขนาดย่อมเพื่อบทบาทโจมตีทางทะเล",
+      "enum": 3
+    },
+    {
+      "key": "frigate",
+      "name": "Frigate",
+      "detail": "เรือรบเพรียว ปืนใหญ่เรียงเป็นแนวด้านข้าง",
+      "enum": 4
+    },
+    {
+      "key": "man_of_war",
+      "name": "Man Of War",
+      "detail": "เรือรบขนาดใหญ่หลายชั้นปืน บทบาทกำลังรบหนัก",
+      "enum": 5
+    }
+  ],
+  "native": [
+    {
+      "key": "sioux",
+      "asset": "Sioux",
+      "name": "Sioux / Oceti Sakowin",
+      "leader": "ผู้ดูแลสายน้ำ",
+      "leader_note": "ตัวละครสมมติสำหรับเกม",
+      "region": "เครือข่ายชุมชน Dakota, Nakota และ Lakota ในอเมริกาเหนือ",
+      "terrains": [
+        "Prairie",
+        "Grassland",
+        "Broadleaf Forest"
+      ],
+      "supply": [
+        "Food",
+        "Fur"
+      ],
+      "professions": [
+        "Farmers",
+        "Fur Trappers"
+      ],
+      "rival": "Apache",
+      "aggression": "ปานกลาง",
+      "emblem": "navy blue cloth, a simple ivory river curve and three small ochre dots",
+      "portrait": "an early-contact Dakota-inspired community representative in modest buckskin tunic and leggings, simple hair, holding a wooden staff, no huge warbonnet or horse",
+      "town": "a compact cluster of bark-covered woodland lodges and one small conical hide shelter, early-contact community, no horse",
+      "source": "https://americanindian.si.edu/nk360/plains-belonging-homelands/oceti-sakowin"
+    },
+    {
+      "key": "tupi",
+      "asset": "Tupi",
+      "name": "Tupi / Tupinambá",
+      "leader": "ผู้ดูแลชายฝั่ง",
+      "leader_note": "ตัวละครสมมติสำหรับเกม",
+      "region": "ชุมชน Tupinambá บริเวณชายฝั่งบราซิล",
+      "terrains": [
+        "Tropical Rainforest",
+        "Swamp",
+        "Savanna Woodland"
+      ],
+      "supply": [
+        "Food",
+        "Cotton"
+      ],
+      "professions": [
+        "Fishermen",
+        "Cotton Planters"
+      ],
+      "rival": "Maya",
+      "aggression": "ปานกลาง",
+      "emblem": "deep green cloth, simple golden canoe silhouette above two short turquoise water lines",
+      "portrait": "a Tupinamba-inspired community representative with woven cotton shoulder wrap and waist garment, small restrained red feather ornament, holding a wooden paddle, respectful fully clothed depiction",
+      "town": "three long thatched communal houses arranged around a small open center, coastal Brazil village, no pyramids",
+      "source": "https://brasil500anos.ibge.gov.br/territorio-brasileiro-e-povoamento/historia-indigena/modos-de-vida-dos-tupinamba-ou-tupis"
+    },
+    {
+      "key": "iroquois",
+      "asset": "Iroquois",
+      "name": "Iroquois / Haudenosaunee",
+      "leader": "ผู้ดูแลสภา",
+      "leader_note": "ตัวละครสมมติสำหรับเกม",
+      "region": "สมาพันธ์ชุมชนรอบเกรตเลกส์และนิวยอร์ก",
+      "terrains": [
+        "Mixed Forest",
+        "Broadleaf Forest",
+        "Plain"
+      ],
+      "supply": [
+        "Food",
+        "Tobacco"
+      ],
+      "professions": [
+        "Farmers",
+        "Tobacco Planters"
+      ],
+      "rival": "Huron",
+      "aggression": "ปานกลาง",
+      "emblem": "purple cloth, one simple ivory longhouse silhouette with three small circles below, original game emblem not the Hiawatha Belt",
+      "portrait": "a Haudenosaunee-inspired council representative in woven cloth and deerhide clothing, restrained shell bead collar, holding a short wooden staff, no Plains warbonnet",
+      "town": "two long bark-covered longhouses inside a small timber palisade with a gateway, northeastern woodland settlement",
+      "source": "https://www.onondaganation.org/aboutus/today/"
+    },
+    {
+      "key": "apache",
+      "asset": "Apache",
+      "name": "Apache",
+      "leader": "ผู้ดูแลสันหิน",
+      "leader_note": "ตัวละครสมมติสำหรับเกม",
+      "region": "กลุ่มชุมชน Apache ในเขตทุ่งหญ้าและตะวันตกเฉียงใต้ของอเมริกาเหนือ",
+      "terrains": [
+        "Desert",
+        "Scrub Forest",
+        "Hills"
+      ],
+      "supply": [
+        "Food",
+        "Fur"
+      ],
+      "professions": [
+        "Farmers",
+        "Fur Trappers"
+      ],
+      "rival": "Sioux",
+      "aggression": "มาก",
+      "emblem": "terracotta cloth, simple ivory stepped ridge under a small gold sun disc",
+      "portrait": "an early-contact Apache-inspired community representative in simple deerhide shirt and leggings, woven headband, holding a wooden bow pointed downward, no nineteenth-century rifle, no warbonnet",
+      "town": "a small cluster of low brush-covered dome shelters and one modest conical shelter, southwestern North America, no huge tipis",
+      "source": "https://home.nps.gov/alfl/learn/historyculture/apaches.htm"
+    },
+    {
+      "key": "aztec",
+      "asset": "Aztec",
+      "name": "Aztec / Mexica",
+      "leader": "Cuauhtémoc",
+      "leader_note": "บุคคลจริง ภาพตีความทางศิลปะ ไม่ใช่ภาพเหมือนยืนยัน",
+      "region": "ลุ่มน้ำเม็กซิโกและเมือง Tenochtitlan ในต้นคริสต์ศตวรรษที่ 16",
+      "terrains": [
+        "Plain",
+        "Grassland",
+        "Swamp"
+      ],
+      "supply": [
+        "Food",
+        "Cotton"
+      ],
+      "professions": [
+        "Farmers",
+        "Cotton Planters"
+      ],
+      "rival": "Maya",
+      "aggression": "มาก",
+      "emblem": "deep red cloth, original simple gold stepped temple above a turquoise circle, no modern Mexico national flag",
+      "portrait": "an artistic interpretation of Cuauhtemoc, early sixteenth-century Mexica leader, embroidered cotton mantle, turquoise ear ornaments, restrained turquoise and green feather headdress, sandals, dignified, no European crown",
+      "town": "a compact Mexica settlement with small whitewashed stepped temple, low courtyard houses and a short canal edge, no giant city scene",
+      "source": "https://www.gob.mx/agn/articulos/111664"
+    },
+    {
+      "key": "huron",
+      "asset": "Huron",
+      "name": "Huron / Wendat",
+      "leader": "ผู้ดูแลทะเลสาบ",
+      "leader_note": "ตัวละครสมมติสำหรับเกม",
+      "region": "ชุมชน Wendat ในบริเวณเกรตเลกส์",
+      "terrains": [
+        "Broadleaf Forest",
+        "Mixed Forest",
+        "Grassland"
+      ],
+      "supply": [
+        "Food",
+        "Fur"
+      ],
+      "professions": [
+        "Farmers",
+        "Fur Trappers"
+      ],
+      "rival": "Iroquois",
+      "aggression": "น้อย",
+      "emblem": "teal cloth, ivory lake oval with a small gold grain stalk, original fictional emblem",
+      "portrait": "a Wendat-inspired community representative wearing a modest deerhide and woven-cloth outfit, shell bead necklace, simple hair, carrying a maize bundle, no Plains feather warbonnet",
+      "town": "three compact rounded-roof bark longhouses around a central open yard, modest woodland palisade, no tipis",
+      "source": "https://wyandotte-nation.org/culture/our-history/"
+    },
+    {
+      "key": "maya",
+      "asset": "Maya",
+      "name": "Maya",
+      "leader": "ผู้ดูแลป่าตะวันออก",
+      "leader_note": "ตัวละครสมมติสำหรับเกม ไม่แทนผู้นำของ Maya ทั้งหมด",
+      "region": "ชุมชน Maya ในเม็กซิโกตอนใต้ กัวเตมาลา และอเมริกากลาง",
+      "terrains": [
+        "Tropical Rainforest",
+        "Plain",
+        "Swamp"
+      ],
+      "supply": [
+        "Food",
+        "Cotton"
+      ],
+      "professions": [
+        "Farmers",
+        "Cotton Planters"
+      ],
+      "rival": "Aztec",
+      "aggression": "ปานกลาง",
+      "emblem": "jade green cloth, simple ivory four-petal geometric flower above one gold horizontal line, no invented Maya glyph writing",
+      "portrait": "a lowland Maya-inspired community representative in woven cotton tunic and mantle, restrained jade ornaments, simple wrapped headdress, sandals, holding a wooden staff, no European crown or writing",
+      "town": "a small lowland Maya settlement with a modest limestone stepped structure and three palm-thatched homes, no Aztec eagle symbols",
+      "source": "https://maya.nmai.si.edu/maya"
+    },
+    {
+      "key": "inca",
+      "asset": "Inca",
+      "name": "Inca",
+      "leader": "Manco Inca",
+      "leader_note": "บุคคลจริง ภาพตีความทางศิลปะ ไม่ใช่ภาพเหมือนยืนยัน",
+      "region": "เทือกเขาแอนดีสและบริเวณ Cusco–Vilcabamba",
+      "terrains": [
+        "Hills",
+        "Mountains",
+        "Plain"
+      ],
+      "supply": [
+        "Food",
+        "Cotton"
+      ],
+      "professions": [
+        "Farmers",
+        "Cotton Planters"
+      ],
+      "rival": "Tupi",
+      "aggression": "มาก",
+      "emblem": "burgundy cloth, simple gold sun disc over three ivory mountain chevrons, no modern rainbow Cusco flag",
+      "portrait": "an artistic interpretation of Manco Inca, sixteenth-century Andean Inca leader, geometric woven uncu tunic and mantle, red headband with small central fringe, gold ear ornaments, sandals, dignified stance with a staff",
+      "town": "a compact Andean settlement with fitted stone walls, three thatched roofs, and tiny stepped agricultural terraces, no Mesoamerican pyramid",
+      "source": "https://comunicaciones.congreso.gob.pe/noticias/declaran-a-manko-inka-precursor-y-heroe-nacional-de-los-pueblos-indigenas-de-america/"
+    }
+  ],
+  "sources": {
+    "forest": "https://research.fs.usda.gov/silvics/",
+    "boreal": "https://research.fs.usda.gov/treesearch/64446",
+    "tropical": "https://home.nps.gov/subjects/nnlandmarks/tropical-ecosystems.htm",
+    "apache": "https://home.nps.gov/alfl/learn/historyculture/apaches.htm",
+    "sioux": "https://americanindian.si.edu/nk360/plains-belonging-homelands/oceti-sakowin",
+    "huron": "https://wyandotte-nation.org/culture/our-history/",
+    "iroquois": "https://www.onondaganation.org/aboutus/today/",
+    "maya": "https://maya.nmai.si.edu/maya",
+    "tupi": "https://brasil500anos.ibge.gov.br/territorio-brasileiro-e-povoamento/historia-indigena/modos-de-vida-dos-tupinamba-ou-tupis",
+    "aztec": "https://www.gob.mx/agn/articulos/111664",
+    "inca": "https://comunicaciones.congreso.gob.pe/noticias/declaran-a-manko-inka-precursor-y-heroe-nacional-de-los-pueblos-indigenas-de-america/"
+  },
+  "notes": [
+    "ค่าทรัพยากร อาชีพ Supply คู่แข่ง และระดับ Aggression เป็นการออกแบบเกม ไม่ใช่ลักษณะประจำชนชาติหรือข้อเท็จจริงทางประวัติศาสตร์",
+    "ธง Native ทุกแบบเป็นตราประจำฝ่ายที่ออกแบบใหม่ ไม่ใช่ธงประวัติศาสตร์หรือธงทางการของชุมชนปัจจุบัน",
+    "ภาพผู้นำเป็นภาพตีความ CG สำหรับเกม ผู้นำสมมติระบุชัดเจนทุกหน้า",
+    "Broadleaf→Prairie, Boreal→Tundra และ Rainforest→Swamp เป็นการแปลง Terrain ตามโจทย์ ไม่ใช่ข้อสรุปทางนิเวศวิทยา",
+    "ฐานเกมใช้ชื่อ enum และ ScriptableObject เดิมเพื่อคงความเข้ากันได้"
+  ]
+}

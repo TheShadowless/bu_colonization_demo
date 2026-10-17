@@ -1,0 +1,258 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "prompts": [
+    {
+      "key": "unit_free_colonist",
+      "prompt": "ONE standalone historical strategy game unit sprite: a seventeenth-century European civilian settler in simple linen shirt, brown vest, breeches, boots and soft brimmed hat, holding a small rolled blanket. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_soldier",
+      "prompt": "ONE standalone historical strategy game unit sprite: a seventeenth-century European soldier holding one long matchlock musket safely upright, plain blue coat, bandolier and simple brimmed hat, no modern uniform. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_hardy_pioneer",
+      "prompt": "ONE standalone historical strategy game unit sprite: a sturdy colonial pioneer wearing rough linen and leather work clothes, holding an iron axe with wooden handle. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_plain_native",
+      "prompt": "ONE standalone historical strategy game unit sprite: a respectful early-contact North American plains/woodland hunter, buckskin tunic and leggings, simple hair, holding a wooden bow, no huge feather warbonnet. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_tropical_native",
+      "prompt": "ONE standalone historical strategy game unit sprite: a respectful early-contact tropical South American hunter, woven waist cloth and modest shoulder wrap, simple fiber armband, holding a long bow, no fantasy armor. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_scout",
+      "prompt": "ONE standalone historical strategy game unit sprite: a seventeenth-century mounted scout riding a small brown horse, leather field clothes, holding a spyglass lowered in one hand. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_farmer",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial farmer in earth-tone work clothes, holding a hoe and a small bundle of maize. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_fisherman",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial fisherman in linen work clothes, holding a fishing net and a single fish. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_missionary",
+      "prompt": "ONE standalone historical strategy game unit sprite: a seventeenth-century Christian missionary in a plain brown robe, holding a closed small book and simple wooden cross. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_statesman",
+      "prompt": "ONE standalone historical strategy game unit sprite: a seventeenth-century civilian statesman in sober dark coat, holding a parchment document and quill, no monarch crown. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_gunsmith",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial gunsmith in leather apron, holding an unfinished wooden musket stock and a small metal file. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_criminal",
+      "prompt": "ONE standalone historical strategy game unit sprite: a seventeenth-century prisoner in worn plain gray clothes, wrists loosely linked with simple iron manacles, dignified neutral stance, no striped modern prison outfit. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "forest_broadleaf",
+      "prompt": "ONE standalone game sprite of broadleaf deciduous woodland with oak/maple-like rounded crowns, lush temperate prairie ground. Historical strategy miniature painterly realistic terrain, almost overhead view. ONE pointed-top regular hex, vertex top and bottom, vertical left and right edges, thin consistent beveled bronze-gold rim. Complete ground plus trees. Hex occupies 90% canvas height and 78% canvas width, centered, clean boundary. No scene beyond hex, no text, no labels, no people, no structures. Exterior genuinely transparent alpha, no checkerboard or shadow. Match natural richly detailed strategy terrain art."
+    },
+    {
+      "key": "forest_savanna",
+      "prompt": "ONE standalone game sprite of warm seasonal savanna woodland, open yellow-green grass and widely spaced low broad-canopy trees, not an African animal scene. Historical strategy miniature painterly realistic terrain, almost overhead view. ONE pointed-top regular hex, vertex top and bottom, vertical left and right edges, thin consistent beveled bronze-gold rim. Complete ground plus trees. Hex occupies 90% canvas height and 78% canvas width, centered, clean boundary. No scene beyond hex, no text, no labels, no people, no structures. Exterior genuinely transparent alpha, no checkerboard or shadow. Match natural richly detailed strategy terrain art."
+    },
+    {
+      "key": "forest_mixed",
+      "prompt": "ONE standalone game sprite of mixed temperate forest of conifer and broadleaf trees on fertile plain. Historical strategy miniature painterly realistic terrain, almost overhead view. ONE pointed-top regular hex, vertex top and bottom, vertical left and right edges, thin consistent beveled bronze-gold rim. Complete ground plus trees. Hex occupies 90% canvas height and 78% canvas width, centered, clean boundary. No scene beyond hex, no text, no labels, no people, no structures. Exterior genuinely transparent alpha, no checkerboard or shadow. Match natural richly detailed strategy terrain art."
+    },
+    {
+      "key": "forest_boreal",
+      "prompt": "ONE standalone game sprite of sparse boreal taiga spruce and larch on cold tundra transition ground, moss, exposed stones, small patches of snow. Historical strategy miniature painterly realistic terrain, almost overhead view. ONE pointed-top regular hex, vertex top and bottom, vertical left and right edges, thin consistent beveled bronze-gold rim. Complete ground plus trees. Hex occupies 90% canvas height and 78% canvas width, centered, clean boundary. No scene beyond hex, no text, no labels, no people, no structures. Exterior genuinely transparent alpha, no checkerboard or shadow. Match natural richly detailed strategy terrain art."
+    },
+    {
+      "key": "forest_scrub",
+      "prompt": "ONE standalone game sprite of dry scrub forest of low thorny bushes and short drought-resistant trees on sandy desert ground. Historical strategy miniature painterly realistic terrain, almost overhead view. ONE pointed-top regular hex, vertex top and bottom, vertical left and right edges, thin consistent beveled bronze-gold rim. Complete ground plus trees. Hex occupies 90% canvas height and 78% canvas width, centered, clean boundary. No scene beyond hex, no text, no labels, no people, no structures. Exterior genuinely transparent alpha, no checkerboard or shadow. Match natural richly detailed strategy terrain art."
+    },
+    {
+      "key": "forest_rainforest",
+      "prompt": "ONE standalone game sprite of dense tropical rainforest canopy, humid green broadleaf trees, vines, small swamp pools. Historical strategy miniature painterly realistic terrain, almost overhead view. ONE pointed-top regular hex, vertex top and bottom, vertical left and right edges, thin consistent beveled bronze-gold rim. Complete ground plus trees. Hex occupies 90% canvas height and 78% canvas width, centered, clean boundary. No scene beyond hex, no text, no labels, no people, no structures. Exterior genuinely transparent alpha, no checkerboard or shadow. Match natural richly detailed strategy terrain art."
+    },
+    {
+      "key": "ship_caravel",
+      "prompt": "ONE historical strategy game naval sprite of a small agile fifteenth/sixteenth-century caravel with two or three masts and distinctive triangular lateen sails. Full ship entire hull and sails within frame. Elevated three-quarter view, bow pointing lower left. Rich detailed painterly realistic miniature, warm wooden hull, ivory sails and restrained bronze accents matching terrain artwork. Transparent exterior, no ocean, no waves, no backdrop, no shadow, no label, no flag with real national symbol. Highly readable silhouette at 256x256, generous margin."
+    },
+    {
+      "key": "ship_merchantman",
+      "prompt": "ONE historical strategy game naval sprite of a broad-hulled seventeenth-century merchant cargo ship, three masts, restrained sails, visible cargo barrels, small defensive armament. Full ship entire hull and sails within frame. Elevated three-quarter view, bow pointing lower left. Rich detailed painterly realistic miniature, warm wooden hull, ivory sails and restrained bronze accents matching terrain artwork. Transparent exterior, no ocean, no waves, no backdrop, no shadow, no label, no flag with real national symbol. Highly readable silhouette at 256x256, generous margin."
+    },
+    {
+      "key": "ship_galleon",
+      "prompt": "ONE historical strategy game naval sprite of a large sixteenth/seventeenth-century galleon, three masts, square sails, pronounced high sterncastle and sturdy hull. Full ship entire hull and sails within frame. Elevated three-quarter view, bow pointing lower left. Rich detailed painterly realistic miniature, warm wooden hull, ivory sails and restrained bronze accents matching terrain artwork. Transparent exterior, no ocean, no waves, no backdrop, no shadow, no label, no flag with real national symbol. Highly readable silhouette at 256x256, generous margin."
+    },
+    {
+      "key": "ship_privateer",
+      "prompt": "ONE historical strategy game naval sprite of a small fast seventeenth-century armed privateering sailing ship, low sleek hull, several cannons, no skull-and-crossbones flag. Full ship entire hull and sails within frame. Elevated three-quarter view, bow pointing lower left. Rich detailed painterly realistic miniature, warm wooden hull, ivory sails and restrained bronze accents matching terrain artwork. Transparent exterior, no ocean, no waves, no backdrop, no shadow, no label, no flag with real national symbol. Highly readable silhouette at 256x256, generous margin."
+    },
+    {
+      "key": "ship_frigate",
+      "prompt": "ONE historical strategy game naval sprite of a sleek later-seventeenth-century frigate with three masts, mostly square sails, a single continuous row of cannon ports. Full ship entire hull and sails within frame. Elevated three-quarter view, bow pointing lower left. Rich detailed painterly realistic miniature, warm wooden hull, ivory sails and restrained bronze accents matching terrain artwork. Transparent exterior, no ocean, no waves, no backdrop, no shadow, no label, no flag with real national symbol. Highly readable silhouette at 256x256, generous margin."
+    },
+    {
+      "key": "ship_man_of_war",
+      "prompt": "ONE historical strategy game naval sprite of a large late-seventeenth-century heavy warship with three masts, many square sails, two clearly visible decks of cannon ports. Full ship entire hull and sails within frame. Elevated three-quarter view, bow pointing lower left. Rich detailed painterly realistic miniature, warm wooden hull, ivory sails and restrained bronze accents matching terrain artwork. Transparent exterior, no ocean, no waves, no backdrop, no shadow, no label, no flag with real national symbol. Highly readable silhouette at 256x256, generous margin."
+    },
+    {
+      "key": "leader_sioux",
+      "prompt": "ONE full-body character illustration for a historical strategy game: an early-contact Dakota-inspired community representative in modest buckskin tunic and leggings, simple hair, holding a wooden staff, no huge warbonnet or horse. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_sioux",
+      "prompt": "ONE standalone small historical settlement icon: a compact cluster of bark-covered woodland lodges and one small conical hide shelter, early-contact community, no horse. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_sioux",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of navy blue cloth, a simple ivory river curve and three small ochre dots. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "leader_tupi",
+      "prompt": "ONE full-body character illustration for a historical strategy game: a Tupinamba-inspired community representative with woven cotton shoulder wrap and waist garment, small restrained red feather ornament, holding a wooden paddle, respectful fully clothed depiction. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_tupi",
+      "prompt": "ONE standalone small historical settlement icon: three long thatched communal houses arranged around a small open center, coastal Brazil village, no pyramids. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_tupi",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of deep green cloth, simple golden canoe silhouette above two short turquoise water lines. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "leader_iroquois",
+      "prompt": "ONE full-body character illustration for a historical strategy game: a Haudenosaunee-inspired council representative in woven cloth and deerhide clothing, restrained shell bead collar, holding a short wooden staff, no Plains warbonnet. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_iroquois",
+      "prompt": "ONE standalone small historical settlement icon: two long bark-covered longhouses inside a small timber palisade with a gateway, northeastern woodland settlement. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_iroquois",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of purple cloth, one simple ivory longhouse silhouette with three small circles below, original game emblem not the Hiawatha Belt. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "leader_apache",
+      "prompt": "ONE full-body character illustration for a historical strategy game: an early-contact Apache-inspired community representative in simple deerhide shirt and leggings, woven headband, holding a wooden bow pointed downward, no nineteenth-century rifle, no warbonnet. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_apache",
+      "prompt": "ONE standalone small historical settlement icon: a small cluster of low brush-covered dome shelters and one modest conical shelter, southwestern North America, no huge tipis. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_apache",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of terracotta cloth, simple ivory stepped ridge under a small gold sun disc. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "leader_aztec",
+      "prompt": "ONE full-body character illustration for a historical strategy game: an artistic interpretation of Cuauhtemoc, early sixteenth-century Mexica leader, embroidered cotton mantle, turquoise ear ornaments, restrained turquoise and green feather headdress, sandals, dignified, no European crown. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_aztec",
+      "prompt": "ONE standalone small historical settlement icon: a compact Mexica settlement with small whitewashed stepped temple, low courtyard houses and a short canal edge, no giant city scene. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_aztec",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of deep red cloth, original simple gold stepped temple above a turquoise circle, no modern Mexico national flag. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "leader_huron",
+      "prompt": "ONE full-body character illustration for a historical strategy game: a Wendat-inspired community representative wearing a modest deerhide and woven-cloth outfit, shell bead necklace, simple hair, carrying a maize bundle, no Plains feather warbonnet. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_huron",
+      "prompt": "ONE standalone small historical settlement icon: three compact rounded-roof bark longhouses around a central open yard, modest woodland palisade, no tipis. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_huron",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of teal cloth, ivory lake oval with a small gold grain stalk, original fictional emblem. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "leader_maya",
+      "prompt": "ONE full-body character illustration for a historical strategy game: a lowland Maya-inspired community representative in woven cotton tunic and mantle, restrained jade ornaments, simple wrapped headdress, sandals, holding a wooden staff, no European crown or writing. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_maya",
+      "prompt": "ONE standalone small historical settlement icon: a small lowland Maya settlement with a modest limestone stepped structure and three palm-thatched homes, no Aztec eagle symbols. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_maya",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of jade green cloth, simple ivory four-petal geometric flower above one gold horizontal line, no invented Maya glyph writing. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "leader_inca",
+      "prompt": "ONE full-body character illustration for a historical strategy game: an artistic interpretation of Manco Inca, sixteenth-century Andean Inca leader, geometric woven uncu tunic and mantle, red headband with small central fringe, gold ear ornaments, sandals, dignified stance with a staff. Adult, dignified, neutral expression, head to toes and equipment entirely visible, tall portrait layout suitable for 512x1024. Detailed painterly realistic CG, warm daylight, natural earthy fabrics. Artistic interpretation rather than documentary reconstruction. True transparent alpha background, no scenery, no floor, no text, no frame, no watermark, no caricature."
+    },
+    {
+      "key": "town_inca",
+      "prompt": "ONE standalone small historical settlement icon: a compact Andean settlement with fitted stone walls, three thatched roofs, and tiny stepped agricultural terraces, no Mesoamerican pyramid. Elevated three-quarter view, detailed painterly realistic miniature in earthy colors, small compact coherent group rather than a landscape. Readable at 256x256. Entire buildings within canvas. Exterior truly transparent alpha. No ground hex or border, no surrounding scenery, no people, no text, no watermark, no modern items."
+    },
+    {
+      "key": "flag_inca",
+      "prompt": "ONE standalone faction emblem for a strategy game, explicitly original fictional design: a horizontal rectangular cloth banner of burgundy cloth, simple gold sun disc over three ivory mountain chevrons, no modern rainbow Cusco flag. Flat frontal view with very slight natural fabric ripples, crisp simple symbols readable at 64 pixels, thin bronze stitched border. Entire rectangular banner centered within square canvas. No pole, no tassels, no shadow, no text, no pseudo-writing, no other objects. True transparent alpha outside banner. A fictional game faction emblem, not an official Indigenous flag."
+    },
+    {
+      "key": "flag_england",
+      "prompt": "ONE historical strategy faction banner inspired by symbols circa 1600: white field with one plain straight red St George cross. Rectangular fabric flag viewed straight front, light folds, crisp simple heraldry, thin bronze stitched edge, entirely centered within square canvas. True transparent alpha outside rectangle. No pole, no scenery, no text, no watermark. Painterly realistic fabric game icon readable at 64px."
+    },
+    {
+      "key": "flag_france",
+      "prompt": "ONE historical strategy faction banner inspired by symbols circa 1600: royal blue field with three gold fleurs-de-lis arranged two above one. Rectangular fabric flag viewed straight front, light folds, crisp simple heraldry, thin bronze stitched edge, entirely centered within square canvas. True transparent alpha outside rectangle. No pole, no scenery, no text, no watermark. Painterly realistic fabric game icon readable at 64px."
+    },
+    {
+      "key": "flag_spain",
+      "prompt": "ONE historical strategy faction banner inspired by symbols circa 1600: white field with a red ragged diagonal Cross of Burgundy saltire. Rectangular fabric flag viewed straight front, light folds, crisp simple heraldry, thin bronze stitched edge, entirely centered within square canvas. True transparent alpha outside rectangle. No pole, no scenery, no text, no watermark. Painterly realistic fabric game icon readable at 64px."
+    },
+    {
+      "key": "flag_netherland",
+      "prompt": "ONE historical strategy faction banner inspired by symbols circa 1600: three equal horizontal stripes orange on top, white middle, blue bottom. Rectangular fabric flag viewed straight front, light folds, crisp simple heraldry, thin bronze stitched edge, entirely centered within square canvas. True transparent alpha outside rectangle. No pole, no scenery, no text, no watermark. Painterly realistic fabric game icon readable at 64px."
+    },
+    {
+      "key": "flag_portugal",
+      "prompt": "ONE historical strategy faction banner inspired by symbols circa 1600: white field with simplified period-inspired Portuguese royal arms, five small blue shields arranged as a cross within a red shield border and small golden crown above, no green-red modern flag. Rectangular fabric flag viewed straight front, light folds, crisp simple heraldry, thin bronze stitched edge, entirely centered within square canvas. True transparent alpha outside rectangle. No pole, no scenery, no text, no watermark. Painterly realistic fabric game icon readable at 64px."
+    },
+    {
+      "key": "forest_conifer",
+      "prompt": "Create ONE game sprite: a conifer forest terrain hex for a historical 2D strategy game. Pointed-top regular hex with top/bottom vertex, narrow bronze rim. Match a richly detailed painterly realistic miniature landscape, overhead bird's-eye view (almost top down), lush temperate grassland almost fully covered in conifer pines, a few open grassy patches, no buildings, people, animals, snow or text. Hex occupies 90% canvas height and 78% width, centered with identical clean straight edges and even bronze rim. Entire exterior truly transparent alpha; no baked checkerboard, no drop shadow. Complete terrain tile including ground, since this sprite will cover its cleared Grassland tile on a separate forest renderer. Readable miniature details, warm natural daylight."
+    },
+    {
+      "key": "base_grassland",
+      "prompt": "Remove ONLY the black exterior background outside the bronze pointed-top hex tile. Preserve the complete tile interior, bronze rim, animals, river, grass, trees, framing and proportions without redesign. Replace exterior with genuine transparent alpha, clean smooth edge. No black halo, checkerboard or shadow. This is a background extraction edit of the provided terrain art."
+    },
+    {
+      "key": "unit_lumberjack",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial woodcutter in brown work vest, holding a long wooden-handled felling axe and a small cut log. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_carpenter",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial carpenter in leather apron, holding a wooden mallet and a plank. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_ore_miner",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial iron ore miner in sturdy clothes, holding a pickaxe and a basket of gray iron ore. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_blacksmith",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial blacksmith in dark leather apron, holding an iron hammer and tongs, no anvil or room. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_fur_trapper",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial wilderness trapper in wool and leather, holding a rolled brown fur pelt and a small wooden trap. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_fur_trader",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial fur merchant in dark wool coat and brimmed hat, holding folded fur bundles and a small ledger. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_cotton_planter",
+      "prompt": "ONE standalone historical strategy game unit sprite: an adult civilian cotton grower wearing plain linen work clothes, holding a basket of raw cotton, dignified non-caricatured portrayal. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    },
+    {
+      "key": "unit_cotton_weaver",
+      "prompt": "ONE standalone historical strategy game unit sprite: a colonial textile weaver in work clothes, holding a folded cotton cloth and a wooden shuttle. Full body including feet entirely visible, centered, slight three-quarter view, single coherent subject. Detailed painterly realistic miniature with earthy palette and warm daylight to match bronze-framed terrain tiles. Readable silhouette at 256x256, no border, no scenery, no floor, no cast shadow, no typography, no watermark, no extra figures. True transparent background. Keep all equipment within square canvas with comfortable clear margin. Clothing broadly 1500–1700 inspired, artistic game design."
+    }
+  ]
+}
